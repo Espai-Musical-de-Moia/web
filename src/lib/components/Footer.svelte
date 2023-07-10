@@ -4,12 +4,12 @@
     import iconInstagram from "$lib/img/icon_intagram.svg"
     import iconFacebook from "$lib/img/icon_facebook.svg"
     import iconYouTube from "$lib/img/icon_youtube.svg"
-
+    import logo from "$lib/img/logo.png"
 </script>
 
 <footer>
     <div class="logo">
-        <img src="../src/lib/img/logo.png" alt="logo-principal" widht="119px" height="184px">
+        <img src={logo} alt="logoPrincipal">
     </div>
     <hr>
     <section>
@@ -56,7 +56,7 @@
 
     section {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         margin-top: 20px;
     }
 
@@ -64,6 +64,9 @@
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
+        width: 119px;
+        height: 185px;
+        margin-left: 45%;
     }
 
     p {
@@ -76,7 +79,6 @@
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
         opacity: 0.3;
     }
-
 
     .contacte {
         display: flex;
@@ -104,9 +106,4 @@
     .documentacio {
         text-align: center;
     }
-
-
-
-
-
 </style>
