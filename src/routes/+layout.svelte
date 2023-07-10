@@ -4,3 +4,7 @@
 
 <Footer/>
 <slot/>
+
+<head>
+    <link rel="logoStatic" href="/static/logoStatic.jpg" />
+</head>

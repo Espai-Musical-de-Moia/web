@@ -4,14 +4,13 @@
     import iconInstagram from "$lib/img/icon_intagram.svg"
     import iconFacebook from "$lib/img/icon_facebook.svg"
     import iconYouTube from "$lib/img/icon_youtube.svg"
-
 </script>
 
 <footer>
     <div class="logo">
         <img src="../src/lib/img/logo.png" alt="logo-principal" widht="119px" height="184px">
     </div>
-    <hr>
+     <hr>
     <section>
         <div class="reds">
             <img src={iconInstagram} alt="Instagram">
