@@ -18,6 +18,7 @@
                 <a href="https://www.facebook.com/EspaiMusicalMoia/"><img src={iconFacebook} alt="facebook">
                     <a href="https://www.youtube.com/channel/UCYNZvFj4dcFcXlQLyicGAVw?view_as=subscriber"><img src={iconYouTube} alt="youtube">
         </div>
+
         <div class="contacte">
             <div class="mail">
                 <img src={iconMail} alt="correu">
@@ -37,8 +38,8 @@
         </div>
 
         <div class="documentacio">
-            <p>Protecció de Dades</p>
-            <p>Documentació Responsable</p>
+            <p><a href="https://drive.google.com/file/d/1t4vk2pkykzVGLiYUyEee_l28WNiidL8s/view">Drets d'imatge</a></p>
+            <p><a href="https://drive.google.com/file/d/1J7rV-pK57yKRU7rz0yhhvU8_J1MfbYGQ/view">Declaració Responsable</a></p>
         </div>
     </section>
 </footer>
@@ -57,6 +58,28 @@
         display: flex;
         justify-content: space-around;
         margin-top: 20px;
+    }
+
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
     }
 
     .logo {
