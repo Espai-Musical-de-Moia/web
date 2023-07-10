@@ -14,9 +14,9 @@
     <hr>
     <section>
         <div class="reds">
-            <img src={iconInstagram} alt="Instagram">
-            <img src={iconFacebook} alt="facebook">
-            <img src={iconYouTube} alt="youtube">
+            <a href="https://www.instagram.com/espaimusical.moia/"><img src={iconInstagram} alt="instagram">
+                <a href="https://www.facebook.com/EspaiMusicalMoia/"><img src={iconFacebook} alt="facebook">
+                    <a href="https://www.youtube.com/channel/UCYNZvFj4dcFcXlQLyicGAVw?view_as=subscriber"><img src={iconYouTube} alt="youtube">
         </div>
         <div class="contacte">
             <div class="mail">
@@ -40,7 +40,6 @@
             <p>Protecció de Dades</p>
             <p>Documentació Responsable</p>
         </div>
-
     </section>
 </footer>
 
