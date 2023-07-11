@@ -54,8 +54,6 @@
         <div class="boton-act">
                 <Button>Activitats</Button>
         </div>
-       
-
 </div>
 
 <style>
@@ -68,23 +66,26 @@
                 z-index: 1;
         }
 
-        .navbar {
+        .navbar{
                 display: flex;
                 align-items: center;
                 gap: 26em;
-
+                
                 position: relative;
                 padding-left: 50px;
                 z-index: 2;
         }
 
-        ul {
+        ul{
                 display: flex;
                 list-style: none;
                 gap: 20px;
+              
         }
+      
 
-        ul li a {
+        ul li a{
+
                 text-decoration: none;
                 color: aliceblue;
         }
@@ -99,21 +100,17 @@
                 width: 60px;
                 height: 70px;
         }
+        
 
-        .nav-boton {
-                padding-left: 20em;
-        }
+       .nav-boton{
+        padding-left: 20em;
 
-        .texto-principal {
-                position: relative;
-                z-index: 3;
-                padding-right: 17em;
-        }
+       } 
 
-        .boton-act {
-                position: relative;
-                z-index: 4;
-                padding-left: 24em;
-                
-        }
+       .texto-principal{
+
+        position: relative;
+        z-index: 3;
+       }
+       
 </style>
