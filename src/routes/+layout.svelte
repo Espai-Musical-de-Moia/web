@@ -6,10 +6,8 @@
 </script>
 
 <Header/>
-<Hero/>
-<Footer/>
 <slot/>
+<Footer/>
 
-<head>
-    <link rel="logoStatic" href="/static/logoStatic.jpg" />
-</head>
+
+
