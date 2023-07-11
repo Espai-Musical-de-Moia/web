@@ -2,10 +2,11 @@
     import Button from "./Button.svelte";
     import logo from "$lib/img/logo.png"
     import fondo from "$lib/img/fondo.png"    
+    import Principal from "./Principal.svelte";
 </script>
 
 
-
+<div class="container">
 
 <header>
         
@@ -37,8 +38,10 @@
         </div>
                  
 </header>
-
-
+        <div class="texto-principal">
+                <Principal/>
+        </div>
+</div>
 
 <style>
 
@@ -94,5 +97,13 @@
 
        .nav-boton{
         padding-left: 20em;
+
        } 
+
+       .texto-principal{
+
+        position: relative;
+        z-index: 3;
+       }
+       
 </style>

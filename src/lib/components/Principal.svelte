@@ -16,7 +16,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        background-color: #f2f2f2;
+       
         padding: 20px;
         font-size: 16px;
     }
