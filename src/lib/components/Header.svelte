@@ -17,15 +17,19 @@
                 <div class="navbar">
                                  <img src="../src/lib/img/logo.png" alt="logo-principal" widht="50px" height="114px">
                 <nav>
+                        <div class="nav-links">
                         <ul>
                            
                                 <li><a href="/proyecto">Projecte</a></li>
                                 <li><a href="/horario">Horari</a></li>
                                 <li><a href="/espectaculos">Espectacles</a></li>
-                                <li><a href="/calendari">Calendari</a></li>                                       
+                                <li><a href="/calendari">Calendari</a></li> 
+                        </ul> 
+                        </div>
+                        <div class="nav-boton">                                     
                                 <Button>Inspecio i Preus</Button>                              
-                               
-                        </ul>
+                        </div> 
+                        
                        
                 </nav>
         </div>
@@ -50,6 +54,7 @@
 
         .navbar{
                 display: flex;
+                
                 align-items: center;
                 gap: 3em;
                 position: relative;
@@ -70,5 +75,5 @@
                
         } 
 
-    
+       
 </style>
