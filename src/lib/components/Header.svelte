@@ -70,8 +70,5 @@
                
         } 
 
-       Button {
-        background-color: orangered;
-       
-       }
+    
 </style>
