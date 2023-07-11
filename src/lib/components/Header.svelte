@@ -15,17 +15,25 @@
             
         
                 <div class="navbar">
-                                 <img src="../src/lib/img/logo.png" alt="logo-principal" widht="50px" height="114px">
+                        <div class="logo">
+                                 <img src="../src/lib/img/logo.png" alt="logo-principal" widht="100%" height="114px">
+                         </div>
                 <nav>
+                        <div class="nav-links">
                         <ul>
                            
                                 <li><a href="/proyecto">Projecte</a></li>
                                 <li><a href="/horario">Horari</a></li>
                                 <li><a href="/espectaculos">Espectacles</a></li>
-                                <li><a href="/calendari">Calendari</a></li>                                       
+                                <li><a href="/calendari">Calendari</a></li> 
+                        </ul> 
+                        </div>
+                        <div class="nav-boton">                                     
                                 <Button>Inspecio i Preus</Button>                              
-                               
-                        </ul>
+                        </div> 
+                        <div class="header-text">
+                        <img src = "../src/lib/img/text-header" alt="text-header">
+                        <
                        
                 </nav>
         </div>
@@ -51,8 +59,10 @@
         .navbar{
                 display: flex;
                 align-items: center;
-                gap: 3em;
+                gap: 26em;
+                
                 position: relative;
+                padding-left: 50px;
                 z-index: 2;
         }
 
@@ -60,6 +70,7 @@
                 display: flex;
                 list-style: none;
                 gap: 20px;
+              
         }
       
 
@@ -67,8 +78,19 @@
 
                 text-decoration: none;
                 color: aliceblue;
-               
+              
         } 
+        nav{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+        } 
+       
+        .nav-links{
+                
+        }
 
-    
+       .nav-boton{
+        padding-left: 20em;
+       } 
 </style>
