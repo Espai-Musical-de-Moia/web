@@ -1,10 +1,14 @@
 <script>
+
         import Button from "./Button.svelte";
         import logo from "$lib/img/logo.png";
         import fondo from "$lib/img/fondo.png";
         import Principal from "./Principal.svelte";
         
+
+   
 </script>
+
 
 <div class="container">
         <header>
@@ -54,6 +58,8 @@
         <div class="boton-act">
                 <Button>Activitats</Button>
         </div>
+       
+
 </div>
 
 <style>
@@ -66,29 +72,29 @@
                 z-index: 1;
         }
 
-        .navbar{
+        .navbar {
                 display: flex;
                 align-items: center;
                 gap: 26em;
-                
+
                 position: relative;
                 padding-left: 50px;
                 z-index: 2;
         }
 
-        ul{
+        ul {
                 display: flex;
                 list-style: none;
                 gap: 20px;
-              
         }
+
       
 
-        ul li a{
-
-                text-decoration: none;
-                color: aliceblue;
-        }
+    ul li a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+             
         nav {
                 display: flex;
                 flex-direction: row;
@@ -100,17 +106,33 @@
                 width: 60px;
                 height: 70px;
         }
-        
 
-       .nav-boton{
+        .nav-boton {
+                padding-left: 20em;
+        }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    
+    .nav-boton {
         padding-left: 20em;
+    }
 
-       } 
+        .texto-principal {
+                position: relative;
+                z-index: 3;
+                padding-right: 17em;
+        }
 
-       .texto-principal{
+        .boton-act {
+                position: relative;
+                z-index: 4;
+                padding-left: 24em;
+                
+        }
 
-        position: relative;
-        z-index: 3;
-       }
-       
 </style>
