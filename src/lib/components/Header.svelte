@@ -38,9 +38,7 @@
                  
 </header>
 
-<div>
-     <h1></h1>   
-</div>
+
 
 <style>
 
@@ -87,6 +85,11 @@
                 justify-content: flex-end;
         } 
        
+        .logo img{
+                margin-top: 14px;
+                width: 60px;
+                height: 70px;
+        }
         
 
        .nav-boton{
