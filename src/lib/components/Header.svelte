@@ -31,9 +31,7 @@
                         <div class="nav-boton">                                     
                                 <Button>Inspecio i Preus</Button>                              
                         </div> 
-                        <div class="header-text">
-                        <img src = "../src/lib/img/text-header" alt="text-header">
-                        <
+                       
                        
                 </nav>
         </div>
@@ -78,6 +76,7 @@
 
                 text-decoration: none;
                 color: aliceblue;
+                
               
         } 
         nav{
@@ -86,9 +85,7 @@
                 justify-content: flex-end;
         } 
        
-        .nav-links{
-                
-        }
+        
 
        .nav-boton{
         padding-left: 20em;
