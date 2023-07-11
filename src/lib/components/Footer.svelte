@@ -4,20 +4,21 @@
     import iconInstagram from "$lib/img/icon_intagram.svg"
     import iconFacebook from "$lib/img/icon_facebook.svg"
     import iconYouTube from "$lib/img/icon_youtube.svg"
-
+    import logo from "$lib/img/logo.png"
 </script>
 
 <footer>
     <div class="logo">
-        <img src="../src/lib/img/logo.png" alt="logo-principal" widht="119px" height="184px">
+        <img src={logo} alt="logoPrincipal">
     </div>
     <hr>
     <section>
         <div class="reds">
-            <img src={iconInstagram} alt="Instagram">
-            <img src={iconFacebook} alt="facebook">
-            <img src={iconYouTube} alt="youtube">
+            <a href="https://www.instagram.com/espaimusical.moia/"><img src={iconInstagram} alt="instagram">
+                <a href="https://www.facebook.com/EspaiMusicalMoia/"><img src={iconFacebook} alt="facebook">
+                    <a href="https://www.youtube.com/channel/UCYNZvFj4dcFcXlQLyicGAVw?view_as=subscriber"><img src={iconYouTube} alt="youtube">
         </div>
+
         <div class="contacte">
             <div class="mail">
                 <img src={iconMail} alt="correu">
@@ -37,10 +38,9 @@
         </div>
 
         <div class="documentacio">
-            <p>Protecció de Dades</p>
-            <p>Documentació Responsable</p>
+            <p><a href="https://drive.google.com/file/d/1t4vk2pkykzVGLiYUyEee_l28WNiidL8s/view">Drets d'imatge</a></p>
+            <p><a href="https://drive.google.com/file/d/1J7rV-pK57yKRU7rz0yhhvU8_J1MfbYGQ/view">Declaració Responsable</a></p>
         </div>
-
     </section>
 </footer>
 
@@ -56,14 +56,39 @@
 
     section {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         margin-top: 20px;
+    }
+
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
     }
 
     .logo {
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
+        width: 119px;
+        height: 185px;
+        margin-left: 45%;
     }
 
     p {
@@ -76,7 +101,6 @@
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
         opacity: 0.3;
     }
-
 
     .contacte {
         display: flex;
@@ -104,9 +128,4 @@
     .documentacio {
         text-align: center;
     }
-
-
-
-
-
 </style>
