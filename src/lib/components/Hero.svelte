@@ -39,7 +39,7 @@
     .fondo_proyecte {
         display: flex;
         position: absolute;
-        width: auto;
+       
     }
 
     .fondo_gris {
@@ -52,7 +52,7 @@
         display: flex;
         position: absolute;
         flex-wrap: wrap;
-        
+        top: 720px;
         justify-content: space-evenly;
     }
 
