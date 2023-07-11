@@ -15,7 +15,9 @@
             
         
                 <div class="navbar">
-                                 <img src="../src/lib/img/logo.png" alt="logo-principal" widht="50px" height="114px">
+                        <div class="logo">
+                                 <img src="../src/lib/img/logo.png" alt="logo-principal" widht="100%" height="114px">
+                         </div>
                 <nav>
                         <div class="nav-links">
                         <ul>
@@ -74,6 +76,10 @@
                 color: aliceblue;
                
         } 
-
+        nav{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+        } 
        
 </style>
