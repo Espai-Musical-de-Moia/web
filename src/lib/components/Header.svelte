@@ -57,7 +57,8 @@
         .navbar{
                 display: flex;
                 align-items: center;
-                gap: 3em;
+                gap: 26em;
+                
                 position: relative;
                 padding-left: 50px;
                 z-index: 2;
@@ -67,6 +68,7 @@
                 display: flex;
                 list-style: none;
                 gap: 20px;
+              
         }
       
 
@@ -74,7 +76,7 @@
 
                 text-decoration: none;
                 color: aliceblue;
-               
+              
         } 
         nav{
                 display: flex;
@@ -83,10 +85,10 @@
         } 
        
         .nav-links{
-                padding-left: 60px;
+                
         }
 
        .nav-boton{
-        padding-left: 60px;
+        padding-left: 20em;
        } 
 </style>

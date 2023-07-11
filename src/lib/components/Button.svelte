@@ -6,7 +6,7 @@
 <style>
     button{
         background-color: orangered;
-        padding: 0.8em;
+        padding: 0.6em;
         border: none;
         color: aliceblue;
     }
