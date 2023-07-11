@@ -23,25 +23,24 @@
                                 <li><a href="/horario">Horari</a></li>
                                 <li><a href="/espectaculos">Espectacles</a></li>
                                 <li><a href="/calendari">Calendari</a></li>                                       
-                                  
-                        
+                                <Button>Inspecio i Preus</Button>                              
                                
                         </ul>
-                                        
+                       
                 </nav>
         </div>
-        <Button>Inspecio i Preus</Button>
-
-
+                 
 </header>
+
 
 
 <style>
 
         header{
+                width: 100%;
                 display: flex;
-                justify-content: space-between;
-                align-items: center;
+                
+                
         }
         .header-background{
                            
@@ -59,7 +58,6 @@
 
         ul{
                 display: flex;
-                justify-content: space-between;
                 list-style: none;
                 gap: 20px;
         }
@@ -72,7 +70,5 @@
                
         } 
 
-       button {
-        background-color: orangered;
-       }
+    
 </style>
