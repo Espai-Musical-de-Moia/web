@@ -1,7 +1,7 @@
 <script>
     import Button from "./Button.svelte";
-
-  
+    import logo from "$lib/img/logo.png"
+    import fondo from "$lib/img/fondo.png"    
 </script>
 
 
@@ -10,13 +10,13 @@
 <header>
         
         <div class="header-background">
-                <img src="../src/lib/img/fondo.png" alt="fondo-header">
+                <img src={fondo} alt="header-fondo">
         </div>
             
         
                 <div class="navbar">
                         <div class="logo">
-                                 <img src="../src/lib/img/logo.png" alt="logo-principal" widht="100%" height="114px">
+                                <img src={logo} alt="header-logo">
                          </div>
                 <nav>
                         <div class="nav-links">
@@ -38,7 +38,9 @@
                  
 </header>
 
-
+<div>
+     <h1></h1>   
+</div>
 
 <style>
 

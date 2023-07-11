@@ -52,7 +52,7 @@
         display: flex;
         position: absolute;
         flex-wrap: wrap;
-        
+        top: 720px;
         justify-content: space-evenly;
     }
 
