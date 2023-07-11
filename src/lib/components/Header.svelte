@@ -56,10 +56,10 @@
 
         .navbar{
                 display: flex;
-                
                 align-items: center;
                 gap: 3em;
                 position: relative;
+                padding-left: 50px;
                 z-index: 2;
         }
 
@@ -82,4 +82,11 @@
                 justify-content: flex-end;
         } 
        
+        .nav-links{
+                padding-left: 60px;
+        }
+
+       .nav-boton{
+        padding-left: 60px;
+       } 
 </style>
