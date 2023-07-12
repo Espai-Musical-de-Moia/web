@@ -49,7 +49,7 @@
                 width: 100%;
                 display: flex;
                 background-color: black;
-                height: 250px;
+                height: 120px;
         }
         .header-background {
                 position: absolute;
