@@ -1,6 +1,9 @@
 <script>
     import main from "$lib/img/Espectacles/main.png";
     import bigBand from "$lib/img/Espectacles/orq1.png";
+    import orq2 from "$lib/img/Espectacles/orq2.png";
+    import org3 from "$lib/img/Espectacles/org3.png";
+    import orq4 from "$lib/img/Espectacles/orq4.png";
 
 </script>
 
@@ -19,6 +22,7 @@
         <img src={main} alt="fotoMain">
 
     </div>
+    <div class="orquestras">
     <div class="orq-1">
         <div class="text-1">
             <h1>BIG BAND</h1>
@@ -31,15 +35,30 @@
         </div>
     </div>
     <div class="orq-2">
+        <p>L’Espai Musical té també un grup format per joves músics que interpreten estàndards de
+            jazz. El conjunt ofereix un concert distès d’1 a 2 hores, que pot acompanyar un vermut, una
+            fira o un esdeveniment.</p>
+        <img src="{orq2}" alt="orquestra2"/>
 
     </div>
 
-    <div class="orq-3">
+    <div class="org-3">
+        <p>La Xaranga és un conjunt format pels joves músics del projecte i ofereix un repertori ampli
+            de versions de la música moderna més coneguda, des de bandes sonores com El Padrino o
+            Star Wars fins a música de La Pegatina, Oliver y Benji i molts més.
+            La formació es presenta en format cercavila de carrer, per animar festivitats. La durada de
+            l’actuació pot ser al voltant d’una hora o una hora i mitja.</p>
+        <img src="{org3}" alt="orquestra3"/>
 
     </div>
     <div class="orq-4">
+        <p>BANDA DE CERCAVILA
+            La Banda es pres+enta en un format més clàssic de banda de carrer, tipus banda valenciana, amb instruments de vent i percussió. El repertori és l’òptim per a aquest tipus de conjunt: passos dobles, marxes i música tradicional de cercavila. Ideal per a festes populars,
+            cercaviles o per acompanyar gegants.</p>
+        <img src="{orq4}" alt="orquestra4"/>
 
     </div>
+</div>
 
 
 </div>
@@ -64,4 +83,10 @@
         height: 300px;
         margin-top: 20px;
     }
+    .orquestras{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+
+      }
     </style>
