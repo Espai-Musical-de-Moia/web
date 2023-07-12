@@ -1,17 +1,11 @@
 <script>
-
         import Button from "./Button.svelte";
         import logo from "$lib/img/logo.png";
         import fondo from "$lib/img/fondo.png";
-        import Principal from "./Principal.svelte";
 </script>
-
 
 <div class="container">
         <header>
-                <div class="header-background">
-                        <img src={fondo} alt="header-fondo" />
-                </div>
 
                 <div class="navbar">
                         <div class="logo">
@@ -21,17 +15,17 @@
                                 <div class="nav-links">
                                         <ul>
                                                 <li>
-                                                        <a href="/proyecto"
+                                                        <a href="/"
                                                                 >Projecte</a
                                                         >
                                                 </li>
                                                 <li>
-                                                        <a href="/horario"
+                                                        <a href="/horaris"
                                                                 >Horari</a
                                                         >
                                                 </li>
                                                 <li>
-                                                        <a href="/espectaculos"
+                                                        <a href="/espectacles"
                                                                 >Espectacles</a
                                                         >
                                                 </li>
@@ -43,30 +37,22 @@
                                         </ul>
                                 </div>
                                 <div class="nav-boton">
-                                        <Button>Inscripcio  i preus</Button>
+                                        <Button>Inscripcio i preus</Button>
                                 </div>
                         </nav>
                 </div>
         </header>
-        <div class="texto-principal">
-                <Principal />
-        </div>
-
-        <div class="boton-act">
-                <Button>Activitats</Button>
-        </div>
-       
-
 </div>
 
 <style>
         header {
                 width: 100%;
                 display: flex;
+                background-color: black;
+                height: 250px;
         }
         .header-background {
                 position: absolute;
-                z-index: 1;
         }
 
         .navbar {
@@ -85,13 +71,11 @@
                 gap: 20px;
         }
 
-      
+        ul li a {
+                text-decoration: none;
+                color: aliceblue;
+        }
 
-    ul li a {
-        text-decoration: none;
-        color: aliceblue;
-    }
-             
         nav {
                 display: flex;
                 flex-direction: row;
@@ -108,16 +92,15 @@
                 padding-left: 20em;
         }
 
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
+        nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+        }
 
-    
-    .nav-boton {
-        padding-left: 20em;
-    }
+        .nav-boton {
+                padding-left: 20em;
+        }
 
         .texto-principal {
                 position: relative;
@@ -129,7 +112,5 @@
                 position: relative;
                 z-index: 4;
                 padding-left: 24em;
-                
         }
-
 </style>
