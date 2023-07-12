@@ -4,9 +4,6 @@
         import logo from "$lib/img/logo.png";
         import fondo from "$lib/img/fondo.png";
         import Principal from "./Principal.svelte";
-        
-
-   
 </script>
 
 
