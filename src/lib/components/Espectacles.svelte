@@ -1,12 +1,11 @@
 <script>
-import main from "$lib/img/main.png";
+    import main from "$lib/img/Espectacles/main.png";
 </script>
 
 <div class="container">
 
     <div class="main-text">
-        <img src={main} alt="fotoMain">
-        <p>L’ORQUESTRA DE CAMBRA DEL MOIANÈS
+        <p><strong>L’ORQUESTRA DE CAMBRA DEL MOIANÈS<br></strong>
 
             L’Orquestra de Cambra del Moianès és el conjunt més gran del projecte. Agrupa músics
             joves i adults de la comarca amb un alt nivell instrumental amb la intenció de preparar
@@ -17,6 +16,7 @@ import main from "$lib/img/main.png";
             potenciant col·laboracions amb altres artistes del Moianès.
 
         </p>
+        <img src={main} alt="fotoMain">
 
     </div>
     <div class="orq-1">
@@ -34,5 +34,26 @@ import main from "$lib/img/main.png";
     </div>
 
 
-
 </div>
+<style>
+    .main-text {
+        display: flex;
+        vertical-align: baseline;
+        position: relative;
+        width: 100%;
+        height: 350px;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    img {
+        width: 30%;
+        height: 300px;
+        margin-top: 20px;
+    }
+</style>
