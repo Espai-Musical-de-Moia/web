@@ -1,16 +1,8 @@
 <script>
-<<<<<<< HEAD
-    
+import main from "$lib/img/Espectacles/main.png";
+import bigBand from "$lib/img/Espectacles/orq1.png"
 </script>
 
-
-
-
-=======
-import main from "$lib/img/main.png";
-</script>
-
->>>>>>> ad6e00c030adaa554bbfbfad5d2ce8fc1c81eaf7
 <div class="container">
 
     <div class="main-text">
