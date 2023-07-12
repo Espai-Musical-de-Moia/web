@@ -1,7 +1,7 @@
 <script>
         import Button from "./Button.svelte";
         import logo from "$lib/img/logo.png";
-        import fondo from "$lib/img/fondo.png";
+        
 </script>
 
 <div class="container">
