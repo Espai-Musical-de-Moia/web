@@ -6,6 +6,7 @@
         goto('/inscripcio');
     }
 </script>
+
 <div class="container">
     <header>
         <div class="navbar">
