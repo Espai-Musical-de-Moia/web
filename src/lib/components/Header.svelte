@@ -43,7 +43,7 @@
                                         </ul>
                                 </div>
                                 <div class="nav-boton">
-                                        <Button>Inspecio i Preus</Button>
+                                        <Button>Inscripcio  i preus</Button>
                                 </div>
                         </nav>
                 </div>
