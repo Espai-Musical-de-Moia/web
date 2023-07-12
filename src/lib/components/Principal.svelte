@@ -1,4 +1,4 @@
-<script>
+g<script>
     export let text = "Volem una comarca rica en cultura on les";
     export let artText = "Arts tinguin un paper central";
     export let actText = "Consulta els nostres esdeveniments i activitats";

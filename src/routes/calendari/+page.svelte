@@ -7,7 +7,6 @@
  <img src="{calendari}" alt="calendariJuliol">
 </div>
 
-
 <style>
  h1 {
   margin: 30px;
