@@ -1,9 +1,9 @@
 <script>
-    import iconMail from "$lib/img/🦆 icon _mail_.svg"
-    import iconTelephone from "$lib/img/🦆 icon _telephone_.svg"
-    import iconInstagram from "$lib/img/icon_intagram.svg"
-    import iconFacebook from "$lib/img/icon_facebook.svg"
-    import iconYouTube from "$lib/img/icon_youtube.svg"
+    import iconMail from "$lib/img/Footer/\uD83E\uDD86 icon _mail_.svg"
+    import iconTelephone from "$lib/img/Footer/\uD83E\uDD86 icon _telephone_.svg"
+    import iconInstagram from "$lib/img/Footer/icon_intagram.svg"
+    import iconFacebook from "$lib/img/Footer/icon_facebook.svg"
+    import iconYouTube from "$lib/img/Footer/icon_youtube.svg"
     import logo from "$lib/img/logo.png"
 </script>
 
