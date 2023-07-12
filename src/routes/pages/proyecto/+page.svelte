@@ -39,7 +39,7 @@
     .fondo_proyecte {
         display: flex;
         position: absolute;
-       
+        width: auto;
     }
 
     .fondo_gris {

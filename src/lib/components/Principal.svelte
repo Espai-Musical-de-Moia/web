@@ -1,33 +1,34 @@
+<script>
+    export let text = "Volem una comarca rica en cultura on les";
+    export let artText = "Arts tinguin un paper central";
+    export let actText = "Consulta els nostres esdeveniments i activitats";
+</script>
 
 <div class="text-principal">
-    <h1>
-        Volem una comarca rica en cultura on les
-
-    </h1>
-    <h2>
-        Arts tinguin un paper central
-    </h2>
+    <h1>{text}</h1>
+    <h1 class="art">{artText}</h1>
+    <p class="act">{actText}</p>
 </div>
 
 <style>
     .text-principal {
-        position: relative;
         display: flex;
         flex-direction: column;
+        margin-top: 3%;
         align-items: center;
-        text-align: center;
-        background-color: #f2f2f2;
-        padding: 20px;
-        font-size: 16px;
     }
 
-    .text-principal h1 {
-        color: blue;
-        font-size: 39px;
+    h1 {
+        color: #ffffff;
+        line-height: 0%;
     }
 
-    .text-principal h2 {
+    .art {
         color: red;
-        font-size: 50px;
+        line-height: 0%;
     }
-    </style>
+
+    p {
+        color: #ffffff;
+    }
+</style>
