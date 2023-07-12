@@ -1,1 +1,5 @@
-<h1>Espectacles</h1>
+<script>
+    import Espectacles from "$lib/components/Espectacles.svelte";
+</script>
+
+import <Espectacles/>
