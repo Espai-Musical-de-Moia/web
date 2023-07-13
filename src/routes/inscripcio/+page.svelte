@@ -9,8 +9,6 @@
     let handleNext;
 </script>
 
-<h1>Inscripción</h1>
-
 <div>
     <form>
         <label>
