@@ -8,14 +8,14 @@
     <Header/>
     <section>
         <slot/>
-        <Footer/>
     </section>
+    <Footer/>
 </div>
 
 <style>
     section {
        width: 100%; 
-       position: absolute;
+   position: absolute;
        top: 170px;
     }
 

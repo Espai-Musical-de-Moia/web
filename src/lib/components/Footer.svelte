@@ -46,11 +46,12 @@
 
 <style>
     footer {
-        margin: 0;
-        padding: 0;
+
+        margin: auto;
+        width: 100%;
         box-sizing: border-box;
         background-color: #07090D;
-        position: relative;
+        bottom: 0;
         height: 380px;
     }
 
