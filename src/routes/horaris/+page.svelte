@@ -2,7 +2,6 @@
     import horari from "$lib/img/Horaris/Horari_Setmanal.png"
 </script>
 
-<h1>Horari</h1>
 <div>
     <img src="{horari}" alt="horari">
 </div>
