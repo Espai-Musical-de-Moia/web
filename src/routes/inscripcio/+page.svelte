@@ -85,6 +85,7 @@
         height: 52px;
         width: 203px;
         border-radius: 5px;
+        cursor: pointer;
     }
 </style>
 
