@@ -1,6 +1,6 @@
 <script>
     import fondo_proyecte from "$lib/img/fondo_proyecte.png";
-    import image_project from "$lib/img/carrusel/orquestra.png"
+    import image_project from "$lib/img/Carrusel/orquestra.png"
 </script>
 
 <div>
