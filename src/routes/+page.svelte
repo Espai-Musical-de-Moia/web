@@ -5,9 +5,10 @@
 
 
 
-<img src={image_project} alt="orquestra" />
+
 
 <div>
+    <img src={image_project} alt="orquestra" />
     <div class="text-principal">
         <h1>Volem una comarca rica en cultura on les</h1>
         <h1>Arts tinguin un paper central</h1>
@@ -19,7 +20,7 @@
     </div>
 
     <div class="fondo_gris">
-        <h2>El Nostre Proyecte</h2>
+        <h2>El Nostre Projecte</h2>
         <p>
             L’Espai Musical de Moià (EMM) és una cooperativa sense ànim de lucre
             que té com a objectiu principal democratitzar la pràctica musical i
@@ -54,6 +55,7 @@
         position: relative;
         display: inline-block;
         text-align: center;
+       
     }
 
     .fondo_proyecte {
@@ -74,12 +76,8 @@
     .text-principal {
         text-align: center;
         color: white;
+       
         }
     
-    .image_project {    
-     
-
-       margin: 0;
-        
-    }
+     .image_project
 </style>
