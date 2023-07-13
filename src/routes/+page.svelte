@@ -1,6 +1,6 @@
 <script>
     import fondo_proyecte from "$lib/img/fondo_proyecte.png";
-    import image_project from "$lib/img/carrusel/orquestra.png";
+    import image_project from "$lib/img/carrusel/orquestra.png"
 </script>
 
 
@@ -15,7 +15,7 @@
 </div>
 <section>
     <div class="fondo_proyecte">
-        <img src={fondo_proyecte} alt="fondo_proyecte" />
+        <img src={fondo_proyecte} alt="fondo_proyecte"/>
     </div>
 
     <div class="fondo_gris">
@@ -32,7 +32,7 @@
             d’aprenentatge musical, obert a totes les edats i nivells i amb unes
             polítiques econòmiques de gran abast.
         </p>
-        <br />
+        <br/>
         <h3>
             Tothom ha de tenir accés a la música i l’art, eines indispensables
             per al desenvolupament personal i social
