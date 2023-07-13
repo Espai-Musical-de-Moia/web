@@ -52,23 +52,25 @@
 
 <style>
     div {
-        background-color: #dddddd52;
+        background-color: #ffffff;
+        width: 90%;
+        margin: 65px;
+        border-radius: 15px;
     }
 
     form {
         display: flex;
         flex-direction: column;
-        position: relative;
-        width: 60%;
-        margin: 60px auto;
+        width: 55%;
+        margin: auto;
         border-radius: 10px;
-        gap: 20px;
     }
 
     label {
         display: flex;
         flex-direction: column;
         gap: 10px;
+        margin-top: 45px;
     }
 
     input {
@@ -81,11 +83,12 @@
         padding: 0.4em;
         border: none;
         color: aliceblue;
-        margin: 2% 20%;
+        margin: 2% 22.5%;
         height: 52px;
-        width: 203px;
+        width: 15%;
         border-radius: 5px;
         cursor: pointer;
+        font-size: large;
     }
 </style>
 

@@ -5,7 +5,6 @@ import fondo_proyecte from "$lib/img/fondo_proyecte.png";
 </script>
 
 
-<Principaltop/>
 
 
 
@@ -33,6 +32,11 @@ import fondo_proyecte from "$lib/img/fondo_proyecte.png";
         border-radius: 10px;
     }
 
-  
-
+    .text-principal {
+        text-align: center;
+        color: white;
+       
+        }
+    
+     .image_project
 </style>

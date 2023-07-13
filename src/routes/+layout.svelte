@@ -5,19 +5,17 @@
 </script>
 
 <div class="layout">
-    <Header/>
+    <Header />
     <section>
-        <slot/>
+        <slot />
     </section>
-    <Footer/>
+    <Footer />
 </div>
 
 <style>
     section {
-       width: 100%; 
-   position: absolute;
-       top: 170px;
+        width: 100%;
+        position: absolute;
+        top: 170px;
     }
-
-    
 </style>
