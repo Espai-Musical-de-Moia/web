@@ -35,5 +35,9 @@
     }
     h1{
         text-align: center;
+        color: white;
+    }
+    p{
+        color: white;
     }
 </style>

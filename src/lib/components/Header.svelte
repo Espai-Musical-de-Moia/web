@@ -1,43 +1,43 @@
 <script>
-    import { goto } from '$app/navigation';
+    import {goto} from '$app/navigation';
+    import {page} from '$app/stores';
     import logo from "$lib/img/logo.png";
+    import fondo from "$lib/img/fondo.png"
 
     function handleButtonClick() {
         goto('/inscripcio');
     }
 </script>
 
-<div class="container">
-    <header>
-        <div class="navbar">
-            <div class="logo">
-                <img src={logo} alt="header-logo"/>
-            </div>
-            <nav>
-                <div class="nav-links">
-                    <ul>
-                        <li>
-                            <a href="/">Projecte</a>
-                        </li>
-                        <li>
-                            <a href="/horaris">Horari</a>
-                        </li>
-                        <li>
-                            <a href="/espectacles">Espectacles</a>
-                        </li>
-                        <li>
-                            <a href="/calendari">Calendari</a>
-                        </li>
-                        <li>
-                            <button type="button" on:click={handleButtonClick}>
-                                Inscripcio i preus
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
+<header>
+    <img src={logo} alt="header-logo"/>
+    <nav>
+        <ul>
+            <li class:current={$page.url.pathname === '/'}
+                aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+                <a href="/">Projecte</a>
+            </li>
+            <li class:current={$page.url.pathname === '/horaris'}
+                aria-current={$page.url.pathname === '/horaris' ? 'page' : undefined}>
+                <a href="/horaris">Horari</a>
+            </li>
+            <li class:current={$page.url.pathname === '/espectacles'}
+                aria-current={$page.url.pathname === '/espectacles' ? 'page' : undefined}>
+                <a href="/espectacles">Espectacles</a>
+            </li>
+            <li class:current={$page.url.pathname === '/calendari'}
+                aria-current={$page.url.pathname === '/calendari' ? 'page' : undefined}>
+                <a href="/calendari">Calendari</a>
+            </li>
+        </ul>
+    </nav>
+    <button type="button" on:click={handleButtonClick}>
+        Inscripció i preus
+    </button>
+</header>
+
+<div class="img-fondo">
+    <img class="img-fondo" src={fondo} alt="img-fondo"/>
 </div>
 
 <style>
@@ -46,16 +46,14 @@
         display: flex;
         background-color: black;
         height: 120px;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .navbar {
-        display: flex;
-        align-items: center;
-        gap: 26em;
-
-        position: relative;
-        padding-left: 50px;
-        z-index: 2;
+    img {
+        height: 100%;
+        margin-left: 40px;
+        margin-top: 20px;
     }
 
     ul {
@@ -67,18 +65,20 @@
     ul li a {
         text-decoration: none;
         color: aliceblue;
+        position: relative;
     }
 
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
-    .logo img {
-        margin-top: 14px;
-        width: 60px;
-        height: 70px;
+    ul li.current a::before {
+        content: '';
+        position: absolute;
+        bottom: -10px; /* Ajusta la posición vertical del triángulo */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent; /* Tamaño y estilo del triángulo */
+        border-right: 6px solid transparent;
+        border-bottom: 10px solid orangered; /* Color del triángulo */
     }
 
     nav {
@@ -89,9 +89,17 @@
 
     button {
         background-color: orangered;
-        padding: 0.4em;
+        padding: 0.8em;
         border: none;
         color: aliceblue;
+        margin-right: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: medium;
     }
 
+    .img-fondo {
+        width: 100%;
+        margin: 0;
+    }
 </style>

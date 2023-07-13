@@ -5,11 +5,10 @@
     import org3 from "$lib/img/Espectacles/org3.png";
     import orq4 from "$lib/img/Espectacles/orq4.png";
     import BigEspectacleCard from "$lib/components/BigEspectacleCard.svelte";
+
 </script>
 
-
 <div class="container">
-
     <div class="main-text">
         <BigEspectacleCard/>
     </div>
@@ -36,7 +35,6 @@
 
 </div>
 
-
 <style>
     section {
         display: flex;
@@ -46,19 +44,16 @@
         margin: auto;
 
     }
+
+
+
+
+
+    img{
+        width: 30%;
+        height: 300px;
+        margin-top: 20px;
+    }
+
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

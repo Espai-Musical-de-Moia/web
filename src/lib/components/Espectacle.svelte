@@ -37,7 +37,7 @@
     h1 {
 
         width: 100%;
-        color: black;
+        color: red;
         font-weight: bold;
         text-align: center;
 
