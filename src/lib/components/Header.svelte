@@ -32,7 +32,7 @@
         </ul>
     </nav>
     <button type="button" on:click={handleButtonClick}>
-        Inscripcio i preus
+        Inscripció i preus
     </button>
 </header>
 
@@ -53,6 +53,7 @@
     img {
         height: 100%;
         margin-left: 40px;
+        margin-top: 20px;
     }
 
     ul {
@@ -94,6 +95,7 @@
         margin-right: 40px;
         border-radius: 5px;
         cursor: pointer;
+        font-size: medium;
     }
 
     .img-fondo {
