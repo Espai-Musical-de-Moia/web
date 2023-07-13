@@ -68,6 +68,7 @@
 
     .text-principal {
         text-align: center;
+        color: white;
     }
 
     p {

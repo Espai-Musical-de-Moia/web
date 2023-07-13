@@ -6,6 +6,16 @@
 
 <div class="layout">
     <Header />
-    <slot />
-    <Footer />
+    <section>
+        <slot />
+        <Footer />
+    </section>
+    
 </div>
+
+<style>
+    section {
+       position: absolute;
+        top: 170px;
+    }
+</style>

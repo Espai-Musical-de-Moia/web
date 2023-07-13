@@ -2,12 +2,14 @@
     import { goto } from '$app/navigation';
     import { page } from '$app/stores';
     import logo from "$lib/img/logo.png";
+    import fondo from "$lib/img/fondo.png"
 
     function handleButtonClick() {
         goto('/inscripcio');
     }
 </script>
 
+<<<<<<< HEAD
 <header>
     <img src={logo} alt="header-logo" />
 
@@ -31,7 +33,36 @@
         Inscripcio i preus
     </button>
 </header>
+=======
+    <header>
+        <img src={logo} alt="header-logo"/>
+        <nav>
+            <ul>
+                <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+                    <a href="/">Projecte</a>
+                </li>
+                <li aria-current={$page.url.pathname === '/horaris' ? 'page' : undefined}>
+                    <a href="/horaris">Horari</a>
+                </li>
+                <li aria-current={$page.url.pathname === '/espectacles' ? 'page' : undefined}>
+                    <a href="/espectacles">Espectacles</a>
+                </li>
+                <li aria-current={$page.url.pathname === '/calendari' ? 'page' : undefined}>
+                    <a href="/calendari">Calendari</a>
+                </li>
+            </ul>
+        </nav>
+        <button type="button" on:click={handleButtonClick}>
+            Inscripcio i preus
+        </button>
+    </header>
+>>>>>>> 8f7ce39a1a09b388bf701acbab49f2e5340d6920
 
+    <div class="img-fondo">
+    
+    <img class="img-fondo" src={fondo} alt="img-fondo"/>
+   
+</div>
 <style>
     header {
         width: 100%;
@@ -87,4 +118,16 @@
         border-radius: 5px;
     }
 
+<<<<<<< HEAD
+=======
+    li[aria-current="page"] {
+        background-color: rgba(128, 128, 128, 0.597);
+    }
+
+    .img-fondo {
+        width: 100%;
+        margin: 0;
+       
+    }
+>>>>>>> 8f7ce39a1a09b388bf701acbab49f2e5340d6920
 </style>
