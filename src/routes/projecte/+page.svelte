@@ -1,14 +1,9 @@
 <script>
     import fondo_proyecte from "$lib/img/fondo_proyecte.png"
-    import fondo_gris from "$lib/img/Fondo_gris_projecte.png"
 </script>
 <section>
     <div class="fondo_proyecte">
         <img src={fondo_proyecte} alt="fondo_proyecte">
-    </div>
-
-    <div class="fondo_gris">
-        <img src={fondo_gris} alt="fondo_proyecte">
     </div>
 
     <div class="fondo_texto">
@@ -42,12 +37,6 @@
         width: auto;
     }
 
-    .fondo_gris {
-        display: flex;
-        position: relative;
-        margin-left: 120px;
-    }
-
     .fondo_texto {
         display: flex;
         position: absolute;
@@ -60,5 +49,4 @@
         margin-inline-start: 220px;
         margin-inline-end: 150px;
     }
-
 </style>

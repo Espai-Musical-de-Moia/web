@@ -10,10 +10,7 @@
 </script>
 
     <header>
-
-
         <img src={logo} alt="header-logo"/>
-
         <nav>
             <ul>
                 <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
@@ -28,14 +25,11 @@
                 <li aria-current={$page.url.pathname === '/calendari' ? 'page' : undefined}>
                     <a href="/calendari">Calendari</a>
                 </li>
-
             </ul>
-
         </nav>
         <button type="button" on:click={handleButtonClick}>
             Inscripcio i preus
         </button>
-
     </header>
 
     <div class="img-fondo">
@@ -58,7 +52,6 @@
         margin-left: 40px;
     }
 
-
     ul {
         display: flex;
         list-style: none;
@@ -75,7 +68,6 @@
         flex-direction: row;
         justify-content: flex-end;
     }
-
 
     nav {
         display: flex;
