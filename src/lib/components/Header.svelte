@@ -95,10 +95,6 @@
         border-radius: 5px;
     }
 
-    li[aria-current="page"] {
-        background-color: rgba(128, 128, 128, 0.597);
-    }
-
     .img-fondo {
         width: 100%;
         margin: 0;
