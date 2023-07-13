@@ -5,11 +5,11 @@
 
 
 </script>
-<div class="orquestras">
+<article>
     <h1>{titulo}</h1>
     <p> {texto}</p>
     <img src={imagen} alt="imagen">
-</div>
+</article>
 
 <style>
     p {
@@ -19,30 +19,27 @@
     }
 
 
-    .orquestras {
-        width: 100%;
-
-
-        display: grid;
-
+    article {
+        display: flex;
+        width: 45%;
         flex-direction: column;
-        grid-gap: 30px;
+        align-items: center;
+        background-color: #FFFFFF;
 
     }
 
 
     img {
 
-        width: 100%;
-        height: 250px;
+        width: 75%;
     }
 
     h1 {
 
         width: 100%;
-        color: firebrick;
+        color: black;
         font-weight: bold;
-       text-align: center;
+        text-align: center;
 
     }
 

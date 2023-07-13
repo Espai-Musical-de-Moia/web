@@ -21,16 +21,19 @@
 <style>
     article {
         width: 100%;
-        padding: 25px;
+        padding: 70px;
         display: flex;
         justify-content: center;
     }
     div {
         display: flex;
         flex-direction: column;
-        max-width: 20%;
+        max-width: 69%;
     }
     img {
         max-width: 20%;
+    }
+    h1{
+        text-align: center;
     }
 </style>
