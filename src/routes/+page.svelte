@@ -3,10 +3,6 @@
     import image_project from "$lib/img/carrusel/orquestra.png"
 </script>
 
-
-
-
-
 <div>
     <img src={image_project} alt="orquestra" />
     <div class="text-principal">
@@ -76,8 +72,5 @@
     .text-principal {
         text-align: center;
         color: white;
-       
         }
-    
-     .image_project
 </style>
