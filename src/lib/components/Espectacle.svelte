@@ -25,23 +25,17 @@
         flex-direction: column;
         align-items: center;
         background-color: #FFFFFF;
-
     }
 
-
     img {
-
         width: 75%;
     }
 
     h1 {
-
         width: 100%;
         color: red;
         font-weight: bold;
         text-align: center;
-
     }
-
 
 </style>
