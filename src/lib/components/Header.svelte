@@ -1,6 +1,6 @@
 <script>
-    import { goto } from '$app/navigation';
-    import { page } from '$app/stores';
+    import {goto} from '$app/navigation';
+    import {page} from '$app/stores';
     import logo from "$lib/img/logo.png";
 
     function handleButtonClick() {
@@ -8,38 +8,34 @@
     }
 </script>
 
-<div class="container">
     <header>
-        <div class="navbar">
-            <div class="logo">
-                <img src={logo} alt="header-logo"/>
-            </div>
-            <nav>
-                <div class="nav-links">
-                    <ul>
-                        <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-                            <a href="/">Projecte</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/horaris' ? 'page' : undefined}>
-                            <a href="/horaris">Horari</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/espectacles' ? 'page' : undefined}>
-                            <a href="/espectacles">Espectacles</a>
-                        </li>
-                        <li aria-current={$page.url.pathname === '/calendari' ? 'page' : undefined}>
-                            <a href="/calendari">Calendari</a>
-                        </li>
-                        <li>
-                            <button type="button" on:click={handleButtonClick}>
-                                Inscripcio i preus
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+
+
+        <img src={logo} alt="header-logo"/>
+
+        <nav>
+            <ul>
+                <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+                    <a href="/">Projecte</a>
+                </li>
+                <li aria-current={$page.url.pathname === '/horaris' ? 'page' : undefined}>
+                    <a href="/horaris">Horari</a>
+                </li>
+                <li aria-current={$page.url.pathname === '/espectacles' ? 'page' : undefined}>
+                    <a href="/espectacles">Espectacles</a>
+                </li>
+                <li aria-current={$page.url.pathname === '/calendari' ? 'page' : undefined}>
+                    <a href="/calendari">Calendari</a>
+                </li>
+
+            </ul>
+
+        </nav>
+        <button type="button" on:click={handleButtonClick}>
+            Inscripcio i preus
+        </button>
+
     </header>
-</div>
 
 <style>
     header {
@@ -47,17 +43,15 @@
         display: flex;
         background-color: black;
         height: 120px;
-    }
-
-    .navbar {
-        display: flex;
+        justify-content: space-between;
         align-items: center;
-        gap: 26em;
 
-        position: relative;
-        padding-left: 50px;
-        z-index: 2;
     }
+    img{
+        height: 100%;
+        margin-left: 40px;
+    }
+
 
     ul {
         display: flex;
@@ -76,11 +70,6 @@
         justify-content: flex-end;
     }
 
-    .logo img {
-        margin-top: 14px;
-        width: 60px;
-        height: 70px;
-    }
 
     nav {
         display: flex;
@@ -90,9 +79,11 @@
 
     button {
         background-color: orangered;
-        padding: 0.4em;
+        padding: 0.8em;
         border: none;
         color: aliceblue;
+        margin-right: 40px;
+        border-radius: 5px;
     }
 
     li[aria-current="page"] {
