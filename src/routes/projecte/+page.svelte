@@ -60,5 +60,4 @@
         margin-inline-start: 220px;
         margin-inline-end: 150px;
     }
-
 </style>

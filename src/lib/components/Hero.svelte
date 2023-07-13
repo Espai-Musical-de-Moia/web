@@ -1,6 +1,5 @@
 <script>
     import fondo_proyecte from "$lib/img/fondo_proyecte.png";
-    import imagenFondoNegro from "$lib/img/fondo.png";
 </script>
 
 <div>
