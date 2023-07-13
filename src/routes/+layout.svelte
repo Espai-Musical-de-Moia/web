@@ -15,7 +15,8 @@
 
 <style>
     section {
+       width: 100%; 
        position: absolute;
-        top: 170px;
+       top: 170px;
     }
 </style>

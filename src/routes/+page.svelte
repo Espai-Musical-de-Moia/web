@@ -3,6 +3,8 @@
     import image_project from "$lib/img/carrusel/orquestra.png";
 </script>
 
+
+
 <img src={image_project} alt="orquestra" />
 
 <div>
@@ -72,10 +74,12 @@
     .text-principal {
         text-align: center;
         color: white;
-    }
+        }
+    
+    .image_project {    
+     
 
-    p {
-        margin-inline-start: 220px;
-        margin-inline-end: 150px;
+       margin: 0;
+        
     }
 </style>
