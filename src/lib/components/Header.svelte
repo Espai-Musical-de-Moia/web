@@ -2,6 +2,7 @@
     import {goto} from '$app/navigation';
     import {page} from '$app/stores';
     import logo from "$lib/img/logo.png";
+    import fondo from "$lib/img/fondo.png"
 
     function handleButtonClick() {
         goto('/inscripcio');
@@ -37,6 +38,11 @@
 
     </header>
 
+    <div class="img-fondo">
+    
+    <img class="img-fondo" src={fondo} alt="img-fondo"/>
+   
+</div>
 <style>
     header {
         width: 100%;
@@ -90,4 +96,9 @@
         background-color: rgba(128, 128, 128, 0.597);
     }
 
+    .img-fondo {
+        width: 100%;
+        margin: 0;
+       
+    }
 </style>
