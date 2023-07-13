@@ -1,9 +1,9 @@
 <script>
     import fondo_proyecte from "$lib/img/fondo_proyecte.png";
-    import image_project from "$lib/img/carrusel/orquestra.png";
+    import orquestra from "$lib/img/carrusel/orquestra.png";
 </script>
 
-<img src={image_project} alt="orquestra"/>
+<img src={orquestra} alt="orquestra"/>
 
 <div>
     <div class="text-principal">
