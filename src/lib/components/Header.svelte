@@ -11,7 +11,6 @@
 
 <header>
     <img src={logo} alt="header-logo"/>
-
     <nav>
         <ul>
             <li class:current={$page.url.pathname === '/'}
@@ -103,6 +102,5 @@
     .img-fondo {
         width: 100%;
         margin: 0;
-
     }
 </style>

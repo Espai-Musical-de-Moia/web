@@ -51,10 +51,6 @@
 
 
 <style>
-    h1 {
-        margin: 30px;
-    }
-
     div {
         background-color: #dddddd52;
     }
@@ -64,7 +60,6 @@
         flex-direction: column;
         position: relative;
         width: 60%;
-
         margin: 60px auto;
         border-radius: 10px;
         gap: 20px;

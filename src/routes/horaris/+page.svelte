@@ -7,10 +7,6 @@
 </div>
 
 <style>
-    h1 {
-        margin: 30px;
-    }
-
     div {
         display: flex;
         flex-direction: column;
