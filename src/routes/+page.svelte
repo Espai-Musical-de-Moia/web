@@ -73,11 +73,4 @@
         text-align: center;
         color: white;
     }
-
-    .image_project {
-
-
-        margin: 0;
-
-    }
 </style>
