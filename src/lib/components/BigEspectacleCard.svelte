@@ -1,5 +1,5 @@
 <script>
-    import main from "$lib/img/espectacles/main.png";
+    import main from "$lib/img/contratacions/main.png";
 </script>
 
 <article>
@@ -20,24 +20,28 @@
 
 <style>
     article {
-        width: 100%;
+        width: 85%;
         padding: 70px;
+        margin-left: 40px;
         display: flex;
         justify-content: center;
+        background-color: white;
+        border:1px solid ;
+
     }
     div {
         display: flex;
         flex-direction: column;
-        max-width: 69%;
+        max-width: 75%;
     }
     img {
-        max-width: 20%;
+        max-width: 30%;
     }
     h1{
         text-align: center;
-        color: white;
+        color: black;
     }
     p{
-        color: white;
+        color: black;
     }
 </style>

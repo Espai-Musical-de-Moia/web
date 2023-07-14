@@ -21,9 +21,9 @@
                 aria-current={$page.url.pathname === '/horaris' ? 'page' : undefined}>
                 <a href="/horaris">Horari</a>
             </li>
-            <li class:current={$page.url.pathname === '/espectacles'}
-                aria-current={$page.url.pathname === '/espectacles' ? 'page' : undefined}>
-                <a href="/espectacles">Espectacles</a>
+            <li class:current={$page.url.pathname === '/contratacions'}
+                aria-current={$page.url.pathname === '/contratacions' ? 'page' : undefined}>
+                <a href="/contratacions">Contratacions</a>
             </li>
             <li class:current={$page.url.pathname === '/calendari'}
                 aria-current={$page.url.pathname === '/calendari' ? 'page' : undefined}>

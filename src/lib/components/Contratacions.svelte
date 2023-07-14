@@ -12,30 +12,36 @@
 </article>
 
 <style>
-    p {
-        font-size: 23px;
-        text-align: center;
-
-    }
-
 
     article {
         display: flex;
+        height: 600px;
         width: 45%;
+        max-width: 580px;
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
         background-color: #FFFFFF;
+        border: solid 1px lightgray;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: center;
+        width: 80%;
     }
 
     img {
-        width: 75%;
+        width: 100%;
+
     }
 
     h1 {
         width: 100%;
-        color: red;
+        color: black;
         font-weight: bold;
         text-align: center;
+        font-size: 24px;
     }
 
 </style>
