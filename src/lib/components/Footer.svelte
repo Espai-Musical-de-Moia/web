@@ -1,6 +1,6 @@
 <script>
-    import iconMail from "$lib/img/Footer/\uD83E\uDD86 icon _mail_.svg"
-    import iconTelephone from "$lib/img/Footer/\uD83E\uDD86 icon _telephone_.svg"
+    import iconMail from "$lib/img/Footer/icon_mail.svg"
+    import iconTelephone from "$lib/img/Footer/icon_telephone.svg"
     import iconInstagram from "$lib/img/footer/icon_intagram.svg"
     import iconFacebook from "$lib/img/footer/icon_facebook.svg"
     import iconYouTube from "$lib/img/footer/icon_youtube.svg"
