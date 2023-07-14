@@ -8,8 +8,9 @@
     <Header />
     <section>
         <slot />
+        <Footer />
     </section>
-    <Footer />
+
 </div>
 
 <style>
