@@ -9,87 +9,113 @@
     let handleNext;
 </script>
 
-<div>
+<div class="container">
     <form>
-        <label>
-            Cognoms, Nom (del participant):
-            <input type="text" bind:value={campo1}/>
-        </label>
+        <h2>Datos del participante</h2>
 
-        <label>
-            Data de naixement (dia/mes/any):
-            <input type="text" bind:value={campo2}/>
-        </label>
+        <div class="form-group">
+            <label for="campo1">Cognoms, Nom:</label>
+            <input type="text" id="campo1" bind:value={campo1} placeholder="Cognoms, Nom"/>
+        </div>
 
-        <label>
-            Nom del pare, mare o tutor (si el participant és menor d'edat):
-            <input type="text" bind:value={campo3}/>
-        </label>
+        <div class="form-group">
+            <label for="campo2">Data naixement:</label>
+            <input type="text" id="campo2" bind:value={campo2} placeholder="dd/mm/yyyy"/>
+        </div>
 
-        <label>
-            DNI del participant (o tutor si és menor d'edat):
-            <input type="text" bind:value={campo4}/>
-        </label>
+        <div class="form-group">
+            <label for="campo3">Nom pare, mare o tutor:</label>
+            <input type="text" id="campo3" bind:value={campo3} placeholder="Nom pare, mare o tutor"/>
+        </div>
 
-        <label>
-            Email:
-            <input type="text" bind:value={campo5}/>
-        </label>
+        <div class="form-group">
+            <label for="campo4">DNI participant:</label>
+            <input type="text" id="campo4" bind:value={campo4} placeholder="DNI participant"/>
+        </div>
 
-        <label>
-            Telèfon:
-            <input type="text" bind:value={campo6}/>
-        </label>
+        <div class="form-group">
+            <label for="campo5">Email:</label>
+            <input type="text" id="campo5" bind:value={campo5} placeholder="Email"/>
+        </div>
 
-        <label>
-            Població de residència:
-            <input type="text" bind:value={campo7}/>
-        </label>
+        <div class="form-group">
+            <label for="campo6">Telèfon:</label>
+            <input type="text" id="campo6" bind:value={campo6} placeholder="Telèfon"/>
+        </div>
+
+        <div class="form-group">
+            <label for="campo7">Població residència:</label>
+            <input type="text" id="campo7" bind:value={campo7} placeholder="Població residència"/>
+        </div>
+
+        <button type="button" on:click={handleNext}>Següent</button>
     </form>
-    <button type="button" on:click={handleNext}>Següent</button>
 </div>
 
-
 <style>
-    div {
-        background-color: #ffffff;
+    .container {
+        background-color: #f2f2f2;
         width: 90%;
-        margin: 65px;
+        margin: 65px auto;
+        padding: 20px;
         border-radius: 15px;
     }
 
     form {
-        display: flex;
-        flex-direction: column;
-        width: 55%;
+        width: 70%;
         margin: auto;
-        border-radius: 10px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
     }
 
     label {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 45px;
+        font-size: 1.1em;
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
     }
 
     input {
-        height: 52px;
-        width: 703px
+        height: 30px;
+        width: 30%;
+        padding: 5px;
+        font-size: 1em;
+        border-radius: 5px;
+        border: none;
+        background-color: #f5f5f5;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        vertical-align: top;
+        transition: box-shadow 0.3s ease;
+    }
+
+    input:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px #ff6b6b;
     }
 
     button {
         background-color: orangered;
-        padding: 0.4em;
+        padding: 10px;
         border: none;
         color: aliceblue;
-        margin: 2% 22.5%;
-        height: 52px;
-        width: 15%;
+        margin-top: 20px;
+        width: 100%;
         border-radius: 5px;
         cursor: pointer;
-        font-size: large;
+        font-size: 1.2em;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #ff704d;
     }
 </style>
-
-
