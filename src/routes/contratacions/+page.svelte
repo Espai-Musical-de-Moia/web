@@ -1,5 +1,5 @@
 <script>
-    import Contratacions from "$lib/components/contratacions.svelte";
+    import Contratacions from "$lib/components/Contratacions.svelte";
     import bigBand from "$lib/img/contratacions/orq1.png";
     import orq2 from "$lib/img/contratacions/orq2.png";
     import org3 from "$lib/img/contratacions/org3.png";
