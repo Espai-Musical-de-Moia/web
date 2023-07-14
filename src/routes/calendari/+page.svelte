@@ -1,5 +1,5 @@
 <script>
-    import calendari from "$lib/img/Calendari/Calendari-Juliol.png"
+    import calendari from "$lib/img/calendari/Calendari-Juliol.png"
 </script>
 
 <div>

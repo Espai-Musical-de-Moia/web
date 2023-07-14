@@ -1,9 +1,9 @@
 <script>
     import Espectacle from "$lib/components/Espectacle.svelte";
-    import bigBand from "$lib/img/Espectacles/orq1.png";
-    import orq2 from "$lib/img/Espectacles/orq2.png";
-    import org3 from "$lib/img/Espectacles/org3.png";
-    import orq4 from "$lib/img/Espectacles/orq4.png";
+    import bigBand from "$lib/img/espectacles/orq1.png";
+    import orq2 from "$lib/img/espectacles/orq2.png";
+    import org3 from "$lib/img/espectacles/org3.png";
+    import orq4 from "$lib/img/espectacles/orq4.png";
     import BigEspectacleCard from "$lib/components/BigEspectacleCard.svelte";
 
 </script>

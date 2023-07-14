@@ -1,5 +1,5 @@
 <script>
-    import main from "$lib/img/Espectacles/main.png";
+    import main from "$lib/img/espectacles/main.png";
 </script>
 
 <article>

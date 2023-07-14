@@ -1,9 +1,9 @@
 <script>
     import iconMail from "$lib/img/Footer/\uD83E\uDD86 icon _mail_.svg"
     import iconTelephone from "$lib/img/Footer/\uD83E\uDD86 icon _telephone_.svg"
-    import iconInstagram from "$lib/img/Footer/icon_intagram.svg"
-    import iconFacebook from "$lib/img/Footer/icon_facebook.svg"
-    import iconYouTube from "$lib/img/Footer/icon_youtube.svg"
+    import iconInstagram from "$lib/img/footer/icon_intagram.svg"
+    import iconFacebook from "$lib/img/footer/icon_facebook.svg"
+    import iconYouTube from "$lib/img/footer/icon_youtube.svg"
     import logo from "$lib/img/logo.png"
 </script>
 
@@ -14,9 +14,10 @@
     <hr>
     <section>
         <div class="reds">
-            <a href="https://www.instagram.com/espaimusical.moia/"><img src={iconInstagram} alt="instagram">
-                <a href="https://www.facebook.com/EspaiMusicalMoia/"><img src={iconFacebook} alt="facebook">
-                    <a href="https://www.youtube.com/channel/UCYNZvFj4dcFcXlQLyicGAVw?view_as=subscriber"><img src={iconYouTube} alt="youtube">
+            <a href="https://www.instagram.com/espaimusical.moia/"><img src={iconInstagram} alt="instagram"></a>
+            <a href="https://www.facebook.com/EspaiMusicalMoia/"><img src={iconFacebook} alt="facebook"></a>
+            <a href="https://www.youtube.com/channel/UCYNZvFj4dcFcXlQLyicGAVw?view_as=subscriber"><img src={iconYouTube}
+                                                                                                       alt="youtube"></a>
         </div>
 
         <div class="contacte">
@@ -39,7 +40,8 @@
 
         <div class="documentacio">
             <p><a href="https://drive.google.com/file/d/1t4vk2pkykzVGLiYUyEee_l28WNiidL8s/view">Drets d'imatge</a></p>
-            <p><a href="https://drive.google.com/file/d/1J7rV-pK57yKRU7rz0yhhvU8_J1MfbYGQ/view">Declaració Responsable</a></p>
+            <p><a href="https://drive.google.com/file/d/1J7rV-pK57yKRU7rz0yhhvU8_J1MfbYGQ/view">Declaració
+                Responsable</a></p>
         </div>
     </section>
 </footer>
@@ -72,11 +74,13 @@
         background-color: transparent;
         text-decoration: none;
     }
+
     a:hover {
         color: white;
         background-color: transparent;
         text-decoration: none;
     }
+
     a:active {
         color: white;
         background-color: transparent;
