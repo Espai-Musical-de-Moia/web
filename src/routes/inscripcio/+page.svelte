@@ -11,18 +11,20 @@
     let campo5 = '';
     let campo6 = '';
     let campo7 = '';
-    let handleNext;
     let comment = '';
 
     function handleSubmit() {
-        // Aquí puedes enviar los datos del formulario, incluido el comentario, a través de una solicitud HTTP o realizar cualquier acción que desees.
         console.log('Submitted comment:', comment);
     }
 </script>
 
 <div class="container">
+    <h3> US DEMANEM QUE NO FEU LA INSCRIPCIÓ SENSE ABANS HAVER CONTACTAT AMB NOSALTRES (VIA CORREU/TELÈFON/PERSONALMENT).<br> GRÀCIES!</h3>
+
     <form>
-        <h2>Datos del participante</h2>
+        <h2>INSCRIPCIÓ</h2>
+
+
 
         <div class="form-group">
             <label for="campo1">Cognoms, Nom:</label>
@@ -58,8 +60,6 @@
             <label for="campo7">Població residència:</label>
             <input type="text" id="campo7" bind:value={campo7} placeholder="Població residència"/>
         </div>
-
-        <button type="button" on:click={handleNext}>Següent</button>
     </form>
 </div>
 
@@ -73,7 +73,8 @@
     <p>Tens idees, aportacions, dubtes, ... digues la teva!</p>
     <textarea bind:value={comment}></textarea>
 
-    <button on:click={handleSubmit} disabled={!comment}>Enviar formulario</button>
+    <button class="submit-button" on:click={handleSubmit} disabled={!comment}>Enviar formulari</button>
+
 </div>
 
 <style>
@@ -94,6 +95,11 @@
         text-align: center;
         margin-bottom: 20px;
         font-size: 1.5em;
+    }
+
+    h3 {
+        text-align: center;
+        background-color: #ff704d;
     }
 
     .form-group {
@@ -126,19 +132,6 @@
         box-shadow: 0 0 0 3px #ff6b6b;
     }
 
-    button {
-        background-color: orangered;
-        padding: 10px;
-        border: none;
-        color: aliceblue;
-        margin-top: 20px;
-        width: 100%;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 1.2em;
-        transition: background-color 0.3s ease;
-    }
-
     button:hover {
         background-color: #ff704d;
     }
@@ -154,4 +147,20 @@
         font-size: large;
         text-align: justify;
     }
+
+    .submit-button {
+        background-color: orangered;
+        margin-left: 150px;
+        padding: 10px;
+        border: none;
+        color: aliceblue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.2em;
+        transition: background-color 0.3s ease;
+    }
+
 </style>
