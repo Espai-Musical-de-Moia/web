@@ -1,9 +1,9 @@
 <script>
-    import calendari from "$lib/img/calendari/Calendari-Juliol.png"
+    import calendari from "$lib/img/calendari/Calendari-Julio23.png"
 </script>
 
 <div>
-    <img src="{calendari}" alt="calendariJuliol">
+    <img src="{calendari}" alt="calendariJuliol23">
 </div>
 
 <style>

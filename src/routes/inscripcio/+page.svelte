@@ -1,4 +1,9 @@
 <script>
+    import quotes from "$lib/img/quotes/quotes.png"
+    import TevaQuota from "$lib/components/inscripcioQuota/TevaQuota.svelte";
+    import Descomptes7anys from "$lib/components/inscripcioQuota/Descomptes7anys.svelte";
+    import DescomptesQuotaGeneral from "$lib/components/inscripcioQuota/DescomptesQuotaGeneral.svelte";
+
     let campo1 = '';
     let campo2 = '';
     let campo3 = '';
@@ -7,6 +12,12 @@
     let campo6 = '';
     let campo7 = '';
     let handleNext;
+    let comment = '';
+
+    function handleSubmit() {
+        // Aquí puedes enviar los datos del formulario, incluido el comentario, a través de una solicitud HTTP o realizar cualquier acción que desees.
+        console.log('Submitted comment:', comment);
+    }
 </script>
 
 <div class="container">
@@ -50,6 +61,19 @@
 
         <button type="button" on:click={handleNext}>Següent</button>
     </form>
+</div>
+
+<img src="{quotes}" alt="quotes">
+
+<div class="formulari-quota">
+    <TevaQuota/>
+    <Descomptes7anys/>
+    <DescomptesQuotaGeneral/>
+
+    <p>Tens idees, aportacions, dubtes, ... digues la teva!</p>
+    <textarea bind:value={comment}></textarea>
+
+    <button on:click={handleSubmit} disabled={!comment}>Enviar formulario</button>
 </div>
 
 <style>
@@ -117,5 +141,17 @@
 
     button:hover {
         background-color: #ff704d;
+    }
+
+    img {
+        margin: auto 25%;
+        width: 50%
+
+    }
+
+    .formulari-quota {
+        margin: auto 18%;
+        font-size: large;
+        text-align: justify;
     }
 </style>
