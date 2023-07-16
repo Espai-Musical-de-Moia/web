@@ -15,7 +15,11 @@
         <ul>
             <li class:current={$page.url.pathname === '/'}
                 aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-                <a href="/">Projecte</a>
+                <a href="/">Inici</a>
+            </li>
+            <li class:current={$page.url.pathname === '/projecte'}
+                aria-current={$page.url.pathname === '/projecte' ? 'page' : undefined}>
+                <a href="/projecte">Projecte</a>
             </li>
             <li class:current={$page.url.pathname === '/horaris'}
                 aria-current={$page.url.pathname === '/horaris' ? 'page' : undefined}>
