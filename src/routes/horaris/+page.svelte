@@ -1,5 +1,5 @@
 <script>
-    import horari from "$lib/img/Horaris/Horari_Setmanal.png"
+    import horari from "$lib/img/Horaris/horari_setmanal.png"
 </script>
 
 <div>
