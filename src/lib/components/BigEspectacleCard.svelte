@@ -33,6 +33,7 @@
         display: flex;
         flex-direction: column;
         max-width: 75%;
+        justify-content: center;
     }
     img {
         max-width: 30%;
@@ -43,5 +44,6 @@
     }
     p{
         color: black;
+        font-size:20px;
     }
 </style>
