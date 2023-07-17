@@ -4,7 +4,7 @@
     import iconInstagram from "$lib/img/footer/icon_intagram.svg"
     import iconFacebook from "$lib/img/footer/icon_facebook.svg"
     import iconYouTube from "$lib/img/footer/icon_youtube.svg"
-    import logo from "$lib/img/logo.png"
+    import logo from "$lib/img/header/logo.png"
 </script>
 
 <footer>

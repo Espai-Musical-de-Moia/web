@@ -1,16 +1,10 @@
 <script>
-    
-    import fondo_projecte from "$lib/img/fondo_projecte.png";
-    
+    import fondo_projecte from "$lib/img/inscripcioQuota/fondo_projecte.png";
 </script>
 
-
 <section>
-    <div class="fondo_projecte">
-        <img src={fondo_projecte} alt="fondo_projecte"/>
-    </div>
-
-    <div class="fondo_gris">
+    <img src={fondo_projecte} alt="fondo_projecte"/>
+    <div class="projecte">
         <h2>El Nostre Projecte</h2>
         <p>
             L’Espai Musical de Moià (EMM) és una cooperativa sense ànim de lucre
@@ -46,22 +40,34 @@
         position: relative;
         display: inline-block;
         text-align: center;
+        margin: auto 20px;
     }
 
-    .fondo_projecte {
-        display: flex;
+    img {
+        width: 80%;
+    }
+
+    .projecte {
+        background-color: #ddddddc7;
         position: absolute;
+        top: 0;
+        margin: 45px 50px;
+        border-radius: 15px;
     }
 
-    .fondo_gris {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        width: 60%;
-        background-color: #dddddd52;
-        margin: 60px auto;
-        border-radius: 10px;
+    h2 {
+        font-size: xxx-large;
     }
 
-   
+    p {
+        font-size: x-large;
+        margin: auto 10%;
+    }
+
+    h3 {
+        font-size: xx-large;
+        margin: 5% 10%;
+        font-style: italic;
+    }
 </style>
+

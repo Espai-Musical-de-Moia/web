@@ -39,7 +39,8 @@
     width: 90%;
     margin: 0 auto;
     overflow: hidden; 
-   
+      
+
     }
      
     .carrusel img {
@@ -48,8 +49,8 @@
         object-fit: cover;
         border-radius: 2%;
         margin-top: 1%;
-        
-      }
-       
+    }
+   
+    
   </style>
   
