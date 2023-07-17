@@ -19,10 +19,9 @@
                            jazz. El conjunt ofereix un concert distès d’1 a 2 hores, que pot acompanyar un vermut, una
                            fira o un esdeveniment." imagen={orq2}/>
         <Contratacions titulo="XARANGA" texto=" La Xaranga és un conjunt format pels joves músics del projecte i ofereix un repertori ampli
-                           de versions de la música moderna més coneguda, des de bandes sonores com El Padrino o
-                           Star Wars fins a música de La Pegatina, Oliver y Benji i molts més.
-                           La formació es presenta en format cercavila de carrer, per animar festivitats. La durada de
-                           l’actuació pot ser al voltant d’una hora o una hora i mitja." imagen={org3}/>
+                           de versions de la música moderna més coneguda, des de bandes sonores com El Padrino Star Wars fins a música de La Pegatina, Oliver y Benji i molts més.
+                           La formació es presenta en format cercavila de carrer, per animar festivitats.
+                           La durada de l’actuació pot ser al voltant d’una hora o una hora i mitja." imagen={org3}/>
         <Contratacions titulo="BANDA DE CERCAVILA" texto="La Banda es presenta en un format més clàssic de banda de carrer, tipus banda valenciana, amb
                           instruments de vent i percussió. El repertori és l’òptim per a aquest tipus de conjunt: passos
                           dobles,
@@ -31,8 +30,6 @@
 
 
     </section>
-
-
 </div>
 
 <style>
@@ -42,7 +39,6 @@
         flex-wrap: wrap;
         width: 90%;
         margin: 50px auto;
-        gap: 22px;
     }
 </style>
 
