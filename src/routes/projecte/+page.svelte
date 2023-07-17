@@ -1,17 +1,17 @@
 <script>
     
-    import fondo_projecte from "$lib/img/fondo_proyecte.png";
+    import fondo_projecte from "$lib/img/fondo_projecte.png";
     
 </script>
 
 
 <section>
-    <div class="fondo_proyecte">
-        <img src={fondo_projecte} alt="fondo_proyecte"/>
+    <div class="fondo_projecte">
+        <img src={fondo_projecte} alt="fondo_projecte"/>
     </div>
 
     <div class="fondo_gris">
-        <h2>El Nostre Proyecte</h2>
+        <h2>El Nostre Projecte</h2>
         <p>
             L’Espai Musical de Moià (EMM) és una cooperativa sense ànim de lucre
             que té com a objectiu principal democratitzar la pràctica musical i
@@ -48,7 +48,7 @@
         text-align: center;
     }
 
-    .fondo_proyecte {
+    .fondo_projecte {
         display: flex;
         position: absolute;
     }
