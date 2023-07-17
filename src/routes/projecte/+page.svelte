@@ -1,13 +1,13 @@
 <script>
     
-    import fondo_proyecte from "$lib/img/fondo_proyecte.png";
+    import fondo_projecte from "$lib/img/fondo_proyecte.png";
     
 </script>
 
 
 <section>
     <div class="fondo_proyecte">
-        <img src={fondo_proyecte} alt="fondo_proyecte"/>
+        <img src={fondo_projecte} alt="fondo_proyecte"/>
     </div>
 
     <div class="fondo_gris">
