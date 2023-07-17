@@ -15,6 +15,10 @@
         <ul>
             <li class:current={$page.url.pathname === '/'}
                 aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+                <a href="/">Inici</a>
+            </li>
+            <li class:current={$page.url.pathname === '/'}
+                aria-current={$page.url.pathname === '/projecte' ? 'page' : undefined}>
                 <a href="/">Projecte</a>
             </li>
             <li class:current={$page.url.pathname === '/horaris'}
@@ -32,7 +36,7 @@
         </ul>
     </nav>
     <button type="button" on:click={handleButtonClick}>
-        Inscripció i preus
+        Inscripció i quotes
     </button>
 </header>
 
