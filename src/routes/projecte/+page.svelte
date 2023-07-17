@@ -41,6 +41,7 @@
 
     img {
         width: 80%;
+        top: 10px
     }
 
     .projecte {
@@ -49,7 +50,9 @@
         background-color: #ddddddc7;
         position: absolute;
         top: 0;
-        margin-top: 10%;
+        margin: 45px 50px;
+        width: 90%;
+        border-radius: 15px;
     }
 
     h2 {

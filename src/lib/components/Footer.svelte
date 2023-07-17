@@ -40,15 +40,12 @@
 
         <div class="documentacio">
             <p><a href="https://drive.google.com/file/d/1t4vk2pkykzVGLiYUyEee_l28WNiidL8s/view">Drets d'imatge</a></p>
-            <p><a href="https://drive.google.com/file/d/1J7rV-pK57yKRU7rz0yhhvU8_J1MfbYGQ/view">Declaració
-                Responsable</a></p>
         </div>
     </section>
 </footer>
 
 <style>
     footer {
-
         margin: auto;
         width: 100%;
         box-sizing: border-box;
