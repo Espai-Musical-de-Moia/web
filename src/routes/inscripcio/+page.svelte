@@ -19,8 +19,7 @@
 </script>
 
 <div class="container">
-    <h3> US DEMANEM QUE NO FEU LA INSCRIPCIÓ SENSE ABANS HAVER CONTACTAT AMB NOSALTRES (VIA
-        CORREU/TELÈFON/PERSONALMENT).<br> GRÀCIES!</h3>
+    <h3> US DEMANEM QUE NO FEU LA INSCRIPCIÓ SENSE ABANS HAVER CONTACTAT AMB NOSALTRES (VIA CORREU/TELÈFON/PERSONALMENT).<br> GRÀCIES!</h3>
 
     <form>
         <h2>INSCRIPCIÓ</h2>
@@ -60,21 +59,22 @@
             <input type="text" id="campo7" bind:value={campo7} placeholder="Població residència"/>
         </div>
     </form>
-
-    <img src="{quotes}" alt="quotes">
-
-    <div class="formulari-quota">
-        <TevaQuota/>
-        <Descomptes7anys/>
-        <DescomptesQuotaGeneral/>
-
-        <p>Tens idees, aportacions, dubtes, ... digues la teva!</p>
-        <textarea bind:value={comment}></textarea>
-
-        <button class="submit-button" on:click={handleSubmit} disabled={!comment}>Enviar formulari</button>
-
-    </div>
 </div>
+
+<img src="{quotes}" alt="quotes">
+
+<div class="formulari-quota">
+    <TevaQuota/>
+    <Descomptes7anys/>
+    <DescomptesQuotaGeneral/>
+
+    <p>Tens idees, aportacions, dubtes, ... digues la teva!</p>
+    <textarea bind:value={comment}></textarea>
+
+    <button class="submit-button" on:click={handleSubmit} disabled={!comment}>Enviar formulari</button>
+
+</div>
+
 <style>
     .container {
         background-color: #f2f2f2;
@@ -163,4 +163,5 @@
         font-size: 1.2em;
         transition: background-color 0.3s ease;
     }
+
 </style>
