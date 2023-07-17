@@ -1,8 +1,8 @@
 <script>
     import {goto} from '$app/navigation';
     import {page} from '$app/stores';
-    import logo from "$lib/img/logo.png";
-    import fondo from "$lib/img/fondo.png"
+    import logo from "$lib/img/header/logo.png";
+    import fondo from "$lib/img/header/fondo.png"
 
     function handleButtonClick() {
         goto('/inscripcio');
@@ -17,9 +17,9 @@
                 aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
                 <a href="/">Inici</a>
             </li>
-            <li class:current={$page.url.pathname === '/'}
+            <li class:current={$page.url.pathname === '/projecte'}
                 aria-current={$page.url.pathname === '/projecte' ? 'page' : undefined}>
-                <a href="/">Projecte</a>
+                <a href="/projecte">Projecte</a>
             </li>
             <li class:current={$page.url.pathname === '/horaris'}
                 aria-current={$page.url.pathname === '/horaris' ? 'page' : undefined}>
