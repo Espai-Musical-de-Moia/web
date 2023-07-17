@@ -23,6 +23,7 @@
         align-items: center;
         background-color: #FFFFFF;
         border: solid 1px lightgray;
+
     }
 
     p {

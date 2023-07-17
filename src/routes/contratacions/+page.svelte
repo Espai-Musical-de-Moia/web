@@ -42,6 +42,7 @@
         flex-wrap: wrap;
         width: 90%;
         margin: 50px auto;
+        gap: 22px;
     }
 </style>
 
