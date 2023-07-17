@@ -23,7 +23,7 @@
                            Star Wars fins a música de La Pegatina, Oliver y Benji i molts més.
                            La formació es presenta en format cercavila de carrer, per animar festivitats. La durada de
                            l’actuació pot ser al voltant d’una hora o una hora i mitja." imagen={org3}/>
-        <Contratacions titulo="BANDA DE CERCAVILA" texto="La Banda es pres+enta en un format més clàssic de banda de carrer, tipus banda valenciana, amb
+        <Contratacions titulo="BANDA DE CERCAVILA" texto="La Banda es presenta en un format més clàssic de banda de carrer, tipus banda valenciana, amb
                           instruments de vent i percussió. El repertori és l’òptim per a aquest tipus de conjunt: passos
                           dobles,
                           marxes i música tradicional de cercavila. Ideal per a festes populars,
