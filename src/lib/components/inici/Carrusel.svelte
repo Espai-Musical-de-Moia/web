@@ -46,10 +46,10 @@
      
     .carrusel img {
         width: 100%;
-        height: 550px;
+        height: 430px;
         object-fit: cover;
         border-radius: 2%;
-        margin-top: 15%;
+        margin-top: 4%;
     }
    
     
