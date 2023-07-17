@@ -10,16 +10,16 @@
 <style>
     h1 {
         color: aliceblue;
-        font-size:xx-large;
+        font-size: 48px;
 
     }
 
     section {
-        width: 30%;
+        width: 58%;
         position: relative;
         z-index: 1;
-        padding-left: 25%;
+        padding-left: 23%;
         margin-top: -5%;
-        
+        text-align: center;
     }
 </style>
