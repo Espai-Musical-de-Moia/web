@@ -36,19 +36,20 @@
   <style>
     .carrusel {
     
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
     overflow: hidden; 
-      
+    padding-bottom: 180px;
+
 
     }
      
     .carrusel img {
         width: 100%;
-        height: auto;
+        height: 430px;
         object-fit: cover;
         border-radius: 2%;
-        margin-top: 1%;
+        margin-top: 4%;
     }
    
     
