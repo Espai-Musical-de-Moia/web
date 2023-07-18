@@ -23,12 +23,13 @@
         width: 85%;
         padding: 70px;
         margin-left: 40px;
-        margin-top: 40px;
         display: flex;
         justify-content: center;
         background-color: white;
         border:1px solid ;
         height: 280px;
+        margin-top: -40px;
+
 
 
     }
