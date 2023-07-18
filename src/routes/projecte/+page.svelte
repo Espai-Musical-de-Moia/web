@@ -40,18 +40,18 @@
         position: relative;
         display: inline-block;
         text-align: center;
-        margin: auto 20px;
+        margin: auto 66px;
     }
 
     img {
-        width: 80%;
+        width: 96%;
     }
 
     .projecte {
-        background-color: #ddddddc7;
+        background-color: #ddddddf7;
         position: absolute;
         top: 0;
-        margin: 45px 50px;
+        margin: 105px 90px;
         border-radius: 15px;
     }
 
