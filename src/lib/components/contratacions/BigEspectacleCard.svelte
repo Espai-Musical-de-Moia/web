@@ -23,12 +23,18 @@
         width: 85%;
         padding: 70px;
         margin-left: 40px;
-        margin-top: 40px;
         display: flex;
         justify-content: center;
         background-color: white;
         border:1px solid ;
         height: 280px;
+<<<<<<< HEAD
+=======
+        margin-top: -40px;
+
+
+
+>>>>>>> 1c37bbee1e082f1b1d27d37a602bddf1bfe5584d
     }
 
     div {

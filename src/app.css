@@ -5,7 +5,7 @@ body {
     font-family:'Lora', serif;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     body {
         margin: 0;
         font-family:'Lora', serif;
