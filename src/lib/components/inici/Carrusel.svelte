@@ -29,7 +29,7 @@
   
   <div class="carrusel">
     {#each images as image, index}
-    <img src={image} alt="Carrusel Image" style="display: {index === currentIndex ? 'block' : 'none'}">
+    <img src={image} alt="Carrusel Images" style="display: {index === currentIndex ? 'block' : 'none'}">
   {/each}
   </div>
   
