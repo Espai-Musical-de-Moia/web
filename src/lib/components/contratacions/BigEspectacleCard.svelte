@@ -29,18 +29,19 @@
         background-color: white;
         border:1px solid ;
         height: 280px;
-
-
     }
+
     div {
         display: flex;
         flex-direction: column;
         max-width: 80%;
         justify-content: center;
     }
+
     img {
         width: 500px;
     }
+
     h1{
         text-align: center;
         color: black;
