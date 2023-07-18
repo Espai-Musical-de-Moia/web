@@ -69,5 +69,57 @@
         margin: 5% 10%;
         font-style: italic;
     }
-</style>
 
+    @media only screen and (max-width: 1362px) {
+
+        .projecte {
+            margin: 10px;
+            font-size: 2rem;
+        }
+
+        img {
+            width: 100%;
+            height: 900px;
+            background-size: cover;
+        }
+
+        h2 {
+            font-size: inherit;
+        }
+
+        p {
+            font-size: x-large;;
+            margin: 10px 5%;
+        }
+
+        h3 {
+            font-size: smaller;
+            margin: 5% 5%;
+        }
+    }
+
+    @media only screen and (max-width: 704px) {
+        h2 {
+            font-size: smaller;
+        }
+
+        p {
+            font-size: x-large;
+        }
+
+        h3 {
+            font-size: large;
+        }
+    }
+
+    @media only screen and (max-width: 375px) {
+        h2 {
+            font-size: large;
+        }
+
+        p {
+            font-size: small;;
+        }
+
+    }
+</style>

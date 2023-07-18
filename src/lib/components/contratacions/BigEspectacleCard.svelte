@@ -29,9 +29,6 @@
         border:1px solid ;
         height: 280px;
         margin-top: -40px;
-
-
-
     }
 
     div {
@@ -40,9 +37,11 @@
         max-width: 80%;
         justify-content: center;
     }
+
     img {
         width: 500px;
     }
+
     h1{
         text-align: center;
         color: black;
