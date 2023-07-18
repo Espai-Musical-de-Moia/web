@@ -1,8 +1,8 @@
 <script>
-    import quotes from "$lib/img/quotes/quotes.png"
     import TevaQuota from "$lib/components/inscripcioQuota/TevaQuota.svelte";
     import Descomptes7anys from "$lib/components/inscripcioQuota/Descomptes7anys.svelte";
     import DescomptesQuotaGeneral from "$lib/components/inscripcioQuota/DescomptesQuotaGeneral.svelte";
+    import QuotaMensual from "$lib/components/inscripcioQuota/QuotaMensual.svelte";
 
     let campo1 = '';
     let campo2 = '';
@@ -19,7 +19,8 @@
 </script>
 
 <div class="container">
-    <h3> US DEMANEM QUE NO FEU LA INSCRIPCIÓ SENSE ABANS HAVER CONTACTAT AMB NOSALTRES (VIA CORREU/TELÈFON/PERSONALMENT).<br> GRÀCIES!</h3>
+    <h3> US DEMANEM QUE NO FEU LA INSCRIPCIÓ SENSE ABANS HAVER CONTACTAT AMB NOSALTRES (VIA
+        CORREU/TELÈFON/PERSONALMENT).<br> GRÀCIES!</h3>
 
     <form>
         <h2>INSCRIPCIÓ</h2>
@@ -59,22 +60,20 @@
             <input type="text" id="campo7" bind:value={campo7} placeholder="Població residència"/>
         </div>
     </form>
+
+    <div class="formulari-quota">
+        <QuotaMensual/>
+        <TevaQuota/>
+        <Descomptes7anys/>
+        <DescomptesQuotaGeneral/>
+
+        <p>Tens idees, aportacions, dubtes, ... digues la teva!</p>
+        <textarea bind:value={comment}></textarea>
+
+        <button class="submit-button" on:click={handleSubmit} disabled={!comment}>Enviar formulari</button>
+
+    </div>
 </div>
-
-<img src="{quotes}" alt="quotes">
-
-<div class="formulari-quota">
-    <TevaQuota/>
-    <Descomptes7anys/>
-    <DescomptesQuotaGeneral/>
-
-    <p>Tens idees, aportacions, dubtes, ... digues la teva!</p>
-    <textarea bind:value={comment}></textarea>
-
-    <button class="submit-button" on:click={handleSubmit} disabled={!comment}>Enviar formulari</button>
-
-</div>
-
 <style>
     .container {
         background-color: #f2f2f2;
@@ -134,11 +133,6 @@
         background-color: #ff704d;
     }
 
-    img {
-        margin: auto 25%;
-        width: 50%
-    }
-
     .formulari-quota {
         margin: auto 18%;
         font-size: large;
@@ -163,5 +157,4 @@
         font-size: 1.2em;
         transition: background-color 0.3s ease;
     }
-
 </style>

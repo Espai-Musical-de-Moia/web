@@ -105,5 +105,7 @@
     .img-fondo {
         width: 100%;
         margin: 0;
+        object-fit: cover;
+       
     }
 </style>

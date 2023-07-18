@@ -27,16 +27,20 @@
         justify-content: center;
         background-color: white;
         border:1px solid ;
+        height: 280px;
+        margin-top: -40px;
+
+
 
     }
     div {
         display: flex;
         flex-direction: column;
-        max-width: 75%;
+        max-width: 80%;
         justify-content: center;
     }
     img {
-        max-width: 30%;
+        width: 500px;
     }
     h1{
         text-align: center;
