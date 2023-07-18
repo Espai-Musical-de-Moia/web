@@ -50,4 +50,37 @@
         color: black;
         font-size:20px;
     }
+    @media (max-width: 767px) {
+        article {
+            width: 80%;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            border:1px solid ;
+            height: 280px;
+
+
+
+
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            max-width: 80%;
+            justify-content: center;
+        }
+        img {
+            width: 500px;
+        }
+        h1{
+            text-align: center;
+            color: black;
+        }
+        p{
+            color: black;
+            font-size:13px;
+        }
+    }
 </style>
