@@ -3,7 +3,7 @@
     Existeixen les diferents quotes:
 </p>
 
-<table style="width:100%">
+<table class="quotes" style="width:100%">
     <tr>
         <td class="quotaMensual">Quota mensual de soci per menors de 7 anys: 42€</td>
         <td class="descomptes">Descomptes aplicables a la quota de 42€</td>
@@ -72,5 +72,21 @@
     .activitatUnica {
         padding: 2%;
         font-size: larger;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .quotes {
+            font-size: small;
+        }
+
+        .quotaMensual {
+            font-size: medium;
+            padding: 0;
+        }
+
+        .activitatUnica {
+            padding: 0;
+            font-size: medium;
+        }
     }
 </style>
