@@ -27,6 +27,7 @@ Algunas de nuestras funcionalidades principales incluyen:
 <img style="margin: 5px" src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg" alt="Figma" height="50" />
 <img src="https://w7.pngwing.com/pngs/115/721/png-transparent-trello-social-icons-icon.png" alt="trello" width="50" heigth="50"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="trello" width="50" heigth="50"/>
+<img src="img.png" alt="trello" width="50" heigth="90"/>
 </div>
 
 ## Instalación
