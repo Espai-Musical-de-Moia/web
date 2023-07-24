@@ -13,8 +13,8 @@ Algunas de nuestras funcionalidades principales incluyen:
 
 ## Colaboradores
 
-| [Minerva](https://github.com/Minerva1922)                                                | [Jhoana]("https://github.com/ikramadam")                                  | [Ikram]("https://github.com/ikramadam")                                     | [Nelly]("https://https://github.com/NellyKaykay")                           |
-|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| [Minerva](https://github.com/Minerva1922)                                                | [Jhoana](https://github.com/JhoanaVicente)                                          | [Ikram](https://github.com/ikramadam)                                     | [Nelly](https://https://github.com/NellyKaykay)                           |
+|-----------------------------------------------------------------------------|-----------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | <img src="https://avatars.githubusercontent.com/u/126767503?v=4" width=115> | <img src="https://avatars.githubusercontent.com/u/126072279?v=4" width=115> | <img src="https://avatars.githubusercontent.com/u/126071398?v=4" width=115> | <img src="https://avatars.githubusercontent.com/u/126768083?v=4" width=115> |
 
 
