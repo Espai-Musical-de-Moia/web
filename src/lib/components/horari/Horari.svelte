@@ -1,5 +1,6 @@
 <script>
     export let horari;
+    import seguim_treballant from '$lib/img/horaris/seguim_treballant.png';
 </script>
 
 
@@ -23,11 +24,17 @@
     {/each}
     </tbody>
 </table>
+<div>
+<img src= {seguim_treballant} alt="foto">
+</div>
 <style>
     table {
         background-color: white;
         width: 100%;
         border-collapse: collapse;
+        position: absolute;
+        text-align: center;
+
     }
 
     th,
@@ -42,5 +49,19 @@
 
     .dark-gray {
         background-color: #dddddd;
+    }
+
+    div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    img {
+        width: 50%;
+        margin-top: 8%;
+        border-radius: 2%;
     }
 </style>
