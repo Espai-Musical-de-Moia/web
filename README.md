@@ -1,5 +1,7 @@
-## <h1>Espai Musical de Moià</h1>
-<p>El Espai Musical de Moià (EMM) es una cooperativa sin ánimo de lucro que tiene como objetivo principal democratizar la práctica musical y artística de Moià y el Moianès. La participación de los socios y sus intereses musicales y artísticos son el motor de crecimiento y desarrollo del EMM. Es un proyecto innovador y joven, creado por un grupo de pedagogos musicales que sentían la necesidad de promover la actividad musical en la población de Moià y su comarca. El EMM sigue dos líneas de acción: como facilitador de un espacio de aprendizaje musical, abierto a todas las edades y niveles y con políticas económicas de gran alcance.</p>
+# Espai Musical de Moià
+
+## [Sitio Web](https://web-omega-swart.vercel.app/)
+El Espai Musical de Moià (EMM) es una cooperativa sin ánimo de lucro que tiene como objetivo principal democratizar la práctica musical y artística de Moià y el Moianès. La participación de los socios y sus intereses musicales y artísticos son el motor de crecimiento y desarrollo del EMM. Es un proyecto innovador y joven, creado por un grupo de pedagogos musicales que sentían la necesidad de promover la actividad musical en la población de Moià y su comarca. El EMM sigue dos líneas de acción: como facilitador de un espacio de aprendizaje musical, abierto a todas las edades y niveles y con políticas económicas de gran alcance.
 
 ## Funcionalidades Principales
 Algunas de nuestras funcionalidades principales incluyen:
@@ -11,10 +13,12 @@ Algunas de nuestras funcionalidades principales incluyen:
 
 ## Colaboradores
 
-   [<img src="https://avatars.githubusercontent.com/u/126767503?v=4" width=115><br><sub>Minerva</sub>](https://github.com/Minerva1922)<br>
-   [<img src="https://avatars.githubusercontent.com/u/126072279?v=4" width=115><br><sub>Jhoana</sub>](https://github.com/JhoanaVicente)<br>
-   [<img src="https://avatars.githubusercontent.com/u/126071398?v=4" width=115><br><sub>Ikram</sub>](https://github.com/ikramadam)<br>
-   [<img src="https://avatars.githubusercontent.com/u/126768083?v=4" width=115><br><sub>Nelly</sub>](https://github.com/NellyKaykay)
+| [Minerva](https://github.com/Minerva1922)                                                | [Jhoana]("https://github.com/ikramadam")                                  | [Ikram]("https://github.com/ikramadam")                                     | [Nelly]("https://https://github.com/NellyKaykay")                           |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| <img src="https://avatars.githubusercontent.com/u/126767503?v=4" width=115> | <img src="https://avatars.githubusercontent.com/u/126072279?v=4" width=115> | <img src="https://avatars.githubusercontent.com/u/126071398?v=4" width=115> | <img src="https://avatars.githubusercontent.com/u/126768083?v=4" width=115> |
+
+
+
  
 
 
@@ -31,18 +35,11 @@ Algunas de nuestras funcionalidades principales incluyen:
 </div>
 
 ## Instalación
-- Clona o descarga el repositorio del proyecto en tu máquina local.
-```
-- https://github.com/Espai-Musical-de-Moia/web.git"
-```
- -Una vez clonado el repositorio en la terminal de tu editor de código con el proyecto.
-``
-npm install
-``
- -Para ejecutarlos
-```
- npm run dev
-```
+ 
+ - Clona o descarga el [repositorio](https://github.com/Espai-Musical-de-Moia/web.git) del proyecto en tu máquina local.
+ - Instala las dependencias del proyecto usando `npm install`.
+ - Lanza el servidor de desarrollo haciendo `npm run dev`.
+
 ## Trello
 <img src="C:\Users\fundacion\Pictures\Camera Roll\Nueva carpeta\FIGMA.png"><br>
 (https://trello.com/b/oTBCpfNQ/espai-musical-de-moi%C3%A0)
