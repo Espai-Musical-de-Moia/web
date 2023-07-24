@@ -50,7 +50,7 @@
         color: black;
         font-size:20px;
     }
-    @media (max-width: 767px) {
+    @media only screen and (max-width: 732px) {
         article {
             width: 80%;
             padding: 30px;
