@@ -41,11 +41,11 @@ Algunas de nuestras funcionalidades principales incluyen:
  - Lanza el servidor de desarrollo haciendo `npm run dev`.
 
 ## Trello
-<img src="C:\Users\fundacion\Pictures\Camera Roll\Nueva carpeta\FIGMA.png"><br>
+<img src="src/lib/img/readme/trello.png"><br>
 (https://trello.com/b/oTBCpfNQ/espai-musical-de-moi%C3%A0)
 
 ## Figma
-<img src="C:\Users\fundacion\Pictures\figma1.png"><br>
+<img src="src/lib/img/readme/figma.png"><br>
 (https://www.figma.com/file/GScryEnaRixBHVyGoQDbNV/Moia?type=design&node-id=0-1&mode=design&t=cl3l6BVzHgJmHhiz-0)
 
 
