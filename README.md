@@ -1,4 +1,4 @@
-# Espai Musical de Moià
+## <img src="src/lib/img/header/logo.png" width=250>
 
 ## [Sitio Web](https://web-omega-swart.vercel.app/)
 El Espai Musical de Moià (EMM) es una cooperativa sin ánimo de lucro que tiene como objetivo principal democratizar la práctica musical y artística de Moià y el Moianès. La participación de los socios y sus intereses musicales y artísticos son el motor de crecimiento y desarrollo del EMM. Es un proyecto innovador y joven, creado por un grupo de pedagogos musicales que sentían la necesidad de promover la actividad musical en la población de Moià y su comarca. El EMM sigue dos líneas de acción: como facilitador de un espacio de aprendizaje musical, abierto a todas las edades y niveles y con políticas económicas de gran alcance.
