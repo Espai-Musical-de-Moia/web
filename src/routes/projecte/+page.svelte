@@ -79,7 +79,7 @@
 
         img {
             width: 100%;
-            height: 900px;
+            height: 126vh;
             background-size: cover;
         }
 
@@ -99,6 +99,10 @@
     }
 
     @media only screen and (max-width: 704px) {
+
+        img {
+            height: 185vh;
+        }
         h2 {
             font-size: smaller;
         }
@@ -118,8 +122,7 @@
         }
 
         p {
-            font-size: small;;
+            font-size: small;
         }
-
     }
 </style>
