@@ -2,17 +2,19 @@
 
 body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family:'Lora', serif;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 575px) {
     body {
         margin: 0;
         font-family:'Lora', serif;
     }
 
 }
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 991px){
     body {
         margin: 0;
         font-family:'Lora', serif;

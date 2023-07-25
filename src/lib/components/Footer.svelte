@@ -1,34 +1,40 @@
 <script>
-    import iconMail from "$lib/img/footer/icon_mail.svg"
-    import iconTelephone from "$lib/img/footer/icon_telephone.svg"
-    import iconInstagram from "$lib/img/footer/icon_intagram.svg"
-    import iconFacebook from "$lib/img/footer/icon_facebook.svg"
-    import iconYouTube from "$lib/img/footer/icon_youtube.svg"
-    import logo from "$lib/img/header/logo.png"
+    import iconMail from "$lib/img/footer/icon_mail.svg";
+    import iconTelephone from "$lib/img/footer/icon_telephone.svg";
+    import iconInstagram from "$lib/img/footer/icon_intagram.svg";
+    import iconFacebook from "$lib/img/footer/icon_facebook.svg";
+    import iconYouTube from "$lib/img/footer/icon_youtube.svg";
+    import logo from "$lib/img/header/logo.png";
 </script>
 
 <footer>
     <div class="logo">
-        <img src={logo} alt="logoPrincipal">
+        <img class="footer-logo" src={logo} alt="logoPrincipal" />
     </div>
-    <hr>
+    <hr />
     <section>
         <div class="reds">
-            <a href="https://www.instagram.com/espaimusical.moia/"><img src={iconInstagram} alt="instagram"></a>
-            <a href="https://www.facebook.com/EspaiMusicalMoia/"><img src={iconFacebook} alt="facebook"></a>
-            <a href="https://www.youtube.com/channel/UCYNZvFj4dcFcXlQLyicGAVw?view_as=subscriber"><img src={iconYouTube}
-                                                                                                       alt="youtube"></a>
+            <a href="https://www.instagram.com/espaimusical.moia/"
+                ><img src={iconInstagram} alt="instagram" /></a
+            >
+            <a href="https://www.facebook.com/EspaiMusicalMoia/"
+                ><img src={iconFacebook} alt="facebook" /></a
+            >
+            <a
+                href="https://www.youtube.com/channel/UCYNZvFj4dcFcXlQLyicGAVw?view_as=subscriber"
+                ><img src={iconYouTube} alt="youtube" /></a
+            >
         </div>
 
         <div class="contacte">
             <div class="mail">
-                <img src={iconMail} alt="correu">
+                <img src={iconMail} alt="correu" />
                 <p>espaimusical.moia@gmail.com</p>
             </div>
 
             <div class="phone">
-                <img src={iconTelephone} alt="telefon">
-                <p>+34 627949433 (Dani)<br><br>+34 655333709 (Queralt)</p>
+                <img src={iconTelephone} alt="telefon" />
+                <p>+34 627949433 (Dani)<br /><br />+34 655333709 (Queralt)</p>
             </div>
         </div>
 
@@ -39,7 +45,12 @@
         </div>
 
         <div class="documentacio">
-            <p><a href="https://drive.google.com/file/d/1t4vk2pkykzVGLiYUyEee_l28WNiidL8s/view">Drets d'imatge</a></p>
+            <p>
+                <a
+                    href="https://drive.google.com/file/d/1t4vk2pkykzVGLiYUyEee_l28WNiidL8s/view"
+                    >Drets d'imatge</a
+                >
+            </p>
         </div>
     </section>
 </footer>
@@ -49,15 +60,14 @@
         margin: auto;
         width: 100%;
         box-sizing: border-box;
-        background-color: #07090D;
+        background-color: #07090d;
         bottom: 0;
-        height: 380px;
+        height: 20%;
     }
 
     section {
         display: flex;
         justify-content: space-around;
-        margin-top: 20px;
     }
 
     a:link {
@@ -85,16 +95,22 @@
     }
 
     .logo {
+        width: 100%;
         display: flex;
         justify-content: center;
-        margin-bottom: 10px;
-        width: 119px;
-        height: 185px;
-        margin-left: 45%;
     }
 
+    .footer-logo {
+        max-width: 5%;
+        max-height: 9%;
+    }
+
+    img {
+        max-width: 18%;
+    }
     p {
-        color: #FFFFFF;
+        font-size: 12px;
+        color: #ffffff;
     }
 
     hr {
@@ -130,5 +146,33 @@
     .documentacio {
         text-align: center;
     }
-   
+
+    @media screen and (max-width: 575px) {
+        p {
+            font-size: xx-small;
+        }
+
+        .footer-logo {
+            max-width: 15%;
+            max-height: 15%;
+        }
+
+        .logo {
+            max-width: 100%;
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        p {
+            font-size: xx-small;
+        }
+
+        .footer-logo {
+            max-width: 10%;
+            max-height: 10%;
+        }
+
+        img {
+            max-width: 12%;
+        }
+    }
 </style>
