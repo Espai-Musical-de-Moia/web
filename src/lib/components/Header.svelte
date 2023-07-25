@@ -104,13 +104,13 @@
         align-items: center;
     }
     .logo {
-   margin: 2%;
+        margin: 2%;
     
-  }
+     }
     .header-logo {
         height: 100%;
         max-width: 10%;
-       
+     
     }
 
     ul {
@@ -119,6 +119,8 @@
         gap: 60px;
         margin-right: 100px;
     }
+
+   
 
     ul li a {
         text-decoration: none;
@@ -147,7 +149,7 @@
         color: aliceblue;
         border-radius: 5px;
         cursor: pointer;
-        font-size: medium;
+        font-size: small;
     }
 
     .img-fondo {
@@ -157,28 +159,30 @@
        
     }
     .mobile-menu-button {
-    display: none;
-  }
+         display: none;
+    }
+
+
     @media screen and (max-width: 575px) {
-      
-       
 
-
-        ul li{
+        ul{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        list-style: none;
+        font-size:x-small;
+        gap: 20px;
+            
        
     }
-
-    ul li a {
-        text-decoration: none;
-        color: aliceblue;
-       
-        font-size: x-small;
-    }
+      
+    }    
+        
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
     ul li.current a::before {
         content: '';
@@ -193,63 +197,37 @@
         border-bottom: 10px solid orangered;
     }
 
-    
-
-    button {
+    button  {
         background-color: orangered;
-        padding: 0.2em 0.4em;
+        padding: 0.2em 2em;
         border: none;
         color: aliceblue;
         border-radius: 5px;
         cursor: pointer;
         font-size:xx-small;
     }
-
-
-    nav.mobile-menu {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-end;
-      
-      
-  }
-
+    
     .mobile-menu-button {
-        display: block;
-        padding: 0.7rem;
-        height: 2rem;
-
+        width: 6%;
+        display: inline;
+        padding: 1em 2em;
+        align-items: center;
     }
      
     
-  }
   
-
   @media screen and (min-width: 768px) and (max-width: 991px) {
-
-    
-    button {
-            display: none;
-        }   
-   
-    nav.mobile-menu {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-end;
-      position: absolute;
-      top: 120px;
-      right: 0;
-      width: 100%;
-      padding: 20px;
-    }
-  
-
-    ul li {
-      margin-bottom: 10px;
-    }
+    ul li a{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+        padding: 10px;
+      
   }
+}
+   
   
   @media screen and (min-width: 1024px) {
 
