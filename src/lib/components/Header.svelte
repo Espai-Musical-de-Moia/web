@@ -168,13 +168,19 @@ ul li.current a::before {
     
     @media screen and (max-width: 575px) {
       
+        .img-logo{
+            max-width: 10%;
+            max-height: 50%;
+        }
+
+
         ul li{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         list-style: none;
-       
+        gap: 20px;
     }
 
     ul li a {
