@@ -165,10 +165,7 @@
   }
     @media screen and (max-width: 575px) {
       
-        .img-logo{
-            max-width: 10%;
-            max-height: 50%;
-        }
+       
 
 
         ul li{
