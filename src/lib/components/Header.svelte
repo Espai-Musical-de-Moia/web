@@ -47,12 +47,13 @@
                 aria-current={$page.url.pathname === '/calendari' ? 'page' : undefined}>
                 <a href="/calendari">Calendari</a>
             </li>
+            <button type="button" on:click={handleButtonClick}>
+                Inscripció i quotes
+            </button>
         </ul>
         <button class="mobile-menu-button" on:click={toggleMobileMenu}>☰</button>
     </nav>
-    <button type="button" on:click={handleButtonClick}>
-        Inscripció i quotes
-    </button>
+    
 </header>
     
     {#if isMobileMenuOpen}
@@ -94,74 +95,7 @@
 </div>
 
 <style>
-    header {
-        width: 100%;
-        display: flex;
-        background-color: black;
-        height: 20%;
-        justify-content: space-between;
-        align-items: center;
-    }
-      .logo {
-        margin: 2%;
     
-    }
-    .header-logo {
-        height: 100%;
-        max-width: 10%;
-       
-    }
-
-    ul {
-        display: flex;
-        list-style: none;
-       
-    }
-
-    ul li a {
-        text-decoration: none;
-        color: aliceblue;
-      
-    }
-
-    ul li.current a::before {
-        content: '';
-        position: absolute;
-        bottom: -10px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 0;
-        height: 0;
-        border-left: 6px solid transparent;
-        border-right: 6px solid transparent;
-        border-bottom: 10px solid orangered;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
-    button {
-        background-color: orangered;
-        padding: 0.8em;
-        border: none;
-        color: aliceblue;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: medium;
-    }
-
-    .img-fondo {
-        width: 100%;
-        margin: 0;
-        object-fit: cover;
-       
-    }
-    .mobile-menu-button {
-    display: none;
-  }
     @media screen and (max-width: 575px) {
       
         ul li{
@@ -264,8 +198,10 @@
         align-items: center;
     }
     
-    
-  }
+    .logo {
+        margin: 2%;
+    }
+
     .header-logo {
         height: 100%;
         max-width: 10%;
@@ -275,13 +211,13 @@
     ul {
         display: flex;
         list-style: none;
-        gap: 20px;
+        gap: 40px;
     }
 
     ul li a {
         text-decoration: none;
         color: aliceblue;
-        position: relative;
+       
     }
 
     ul li.current a::before {
@@ -301,10 +237,9 @@
 
     button {
         background-color: orangered;
-        padding: 0.8em;
+        padding: 0.7em;
         border: none;
         color: aliceblue;
-        margin-right: 40px;
         border-radius: 5px;
         cursor: pointer;
         font-size: medium;
@@ -320,6 +255,6 @@
     display: none;
   }
       
-
+}
     
 </style>
