@@ -174,7 +174,7 @@
         justify-content: space-between;
         align-items: center;
         list-style: none;
-        gap: 20px;
+        gap: 40px;
     }
 
     ul li a {
