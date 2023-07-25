@@ -126,7 +126,9 @@
        
     }
 
-    ul li.current a::before {
+
+
+ul li.current a::before {
         content: '';
         position: absolute;
         bottom: -10px;
@@ -305,12 +307,12 @@
 
     button {
         background-color: orangered;
-        padding: 0.7em;
+        padding: 0.7em 1em;
         border: none;
         color: aliceblue;
         border-radius: 5px;
         cursor: pointer;
-        font-size: medium;
+        font-size: small;
     }
 
     .img-fondo {
