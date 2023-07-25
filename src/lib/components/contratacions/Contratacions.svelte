@@ -29,8 +29,6 @@
         background-color: #b9b9b9;
     }
 
-
-
     p {
         font-size: 18px;
         text-align: center;
@@ -50,5 +48,4 @@
         text-align: center;
         font-size: 24px;
     }
-
 </style>

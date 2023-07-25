@@ -84,14 +84,12 @@
     }
 
     form {
-        width: 70%;
-        margin: auto;
+        margin: 5% auto;
     }
 
     h2 {
         text-align: center;
-        margin-bottom: 20px;
-        font-size: 1.5em;
+        margin-bottom: 5%;
     }
 
     h3 {
@@ -101,13 +99,14 @@
 
     .form-group {
         margin-bottom: 20px;
+        text-align: center;
     }
 
     label {
-        font-size: 1.1em;
+        font-size: 1.3em;
         width: 30%;
         display: inline-block;
-        vertical-align: top;
+        text-align: initial;
     }
 
     input {
@@ -134,13 +133,13 @@
     }
 
     .formulari-quota {
-        margin: auto 18%;
+        margin: auto 10%;
         font-size: large;
         text-align: justify;
     }
 
     textarea {
-        width: 986px;
+        width: 915px;
         height: 146px;
     }
 
@@ -156,5 +155,26 @@
         cursor: pointer;
         font-size: 1.2em;
         transition: background-color 0.3s ease;
+    }
+
+    @media only screen and (max-width: 600px) {
+        textarea {
+            width: 376px;
+        }
+
+        input {
+            width: 63%;
+            padding: 8px;
+        }
+
+        form {
+            width: 100%;
+            margin: 12% auto;
+            inline-size: fit-content;
+        }
+
+        .formulari-quota {
+            margin: auto;
+        }
     }
 </style>

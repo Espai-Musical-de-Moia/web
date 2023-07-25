@@ -27,8 +27,6 @@
                           dobles,
                           marxes i música tradicional de cercavila. Ideal per a festes populars,
                           cercaviles o per acompanyar gegants." imagen={orq4}/>
-
-
     </section>
 </div>
 
@@ -39,6 +37,10 @@
         flex-wrap: wrap;
         width: 90%;
         margin: 50px auto;
+
     }
+
+
+
 </style>
 
