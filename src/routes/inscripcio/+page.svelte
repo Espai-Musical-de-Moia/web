@@ -4,9 +4,27 @@
     import DescomptesQuotaGeneral from "$lib/components/inscripcioQuota/DescomptesQuotaGeneral.svelte";
     import QuotaMensual from "$lib/components/inscripcioQuota/QuotaMensual.svelte";
 
+    //Calendario
+    import flatpickr from 'flatpickr';
+    import 'flatpickr/dist/flatpickr.min.css';
+    import { onMount } from 'svelte';
+
+
+    let campo2 = '';
+
+    // Configura las opciones del calendario
+    const calendarOptions = {
+        dateFormat: 'd/m/Y',
+        locale: 'ca',
+    };
+
+    // Inicializa el calendario cuando el componente esté montado
+    onMount(() => {
+        flatpickr('.datepicker', calendarOptions);
+    });
+
   let inscripcio="";
     let campo1 = '';
-    let campo2 = '';
     let campo3 = '';
     let campo4 = '';
     let campo5 = '';
@@ -56,7 +74,7 @@
 
             <div class="form-group">
                 <label for="campo2">Data naixement:</label>
-                <input type="text" id="campo2" bind:value={campo2} placeholder="dd/mm/yyyy" required/>
+                <input type="text" id="campo2" class="datepicker" bind:value={campo2} placeholder="dd/mm/yyyy" required/>
             </div>
 
             <div class="form-group">
