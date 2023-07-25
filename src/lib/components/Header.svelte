@@ -47,13 +47,12 @@
                 aria-current={$page.url.pathname === '/calendari' ? 'page' : undefined}>
                 <a href="/calendari">Calendari</a>
             </li>
-            <button type="button" on:click={handleButtonClick}>
-                Inscripció i quotes
-            </button>
         </ul>
         <button class="mobile-menu-button" on:click={toggleMobileMenu}>☰</button>
     </nav>
-    
+    <button type="button" on:click={handleButtonClick}>
+        Inscripció i quotes
+    </button>
 </header>
     
     {#if isMobileMenuOpen}
@@ -95,7 +94,7 @@
 </div>
 
 <style>
-     header {
+    header {
         width: 100%;
         display: flex;
         background-color: black;
@@ -103,11 +102,10 @@
         justify-content: space-between;
         align-items: center;
     }
-    
     .logo {
-        margin: 2%;
-    }
-
+   margin: 2%;
+    
+  }
     .header-logo {
         height: 100%;
         max-width: 10%;
@@ -117,18 +115,16 @@
     ul {
         display: flex;
         list-style: none;
-        gap: 40px;
+        gap: 20px;
     }
 
     ul li a {
         text-decoration: none;
         color: aliceblue;
-       
+      
     }
 
-
-
-ul li.current a::before {
+    ul li.current a::before {
         content: '';
         position: absolute;
         bottom: -10px;
@@ -141,13 +137,18 @@ ul li.current a::before {
         border-bottom: 10px solid orangered;
     }
 
-   
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
 
     button {
         background-color: orangered;
-        padding: 0.7em;
+        padding: 0.8em;
         border: none;
         color: aliceblue;
+        margin-right: 40px;
         border-radius: 5px;
         cursor: pointer;
         font-size: medium;
@@ -162,16 +163,9 @@ ul li.current a::before {
     .mobile-menu-button {
     display: none;
   }
-      
-
-    
-    
     @media screen and (max-width: 575px) {
       
-        .img-logo{
-            max-width: 10%;
-            max-height: 50%;
-        }
+       
 
 
         ul li{
@@ -180,7 +174,7 @@ ul li.current a::before {
         justify-content: space-between;
         align-items: center;
         list-style: none;
-        gap: 20px;
+        gap: 40px;
     }
 
     ul li a {
@@ -273,11 +267,10 @@ ul li.current a::before {
         justify-content: space-between;
         align-items: center;
     }
-    
     .logo {
-        margin: 2%;
-    }
-
+   margin: 2%;
+    
+  }
     .header-logo {
         height: 100%;
         max-width: 10%;
@@ -287,13 +280,13 @@ ul li.current a::before {
     ul {
         display: flex;
         list-style: none;
-        gap: 40px;
+        gap: 20px;
     }
 
     ul li a {
         text-decoration: none;
         color: aliceblue;
-       
+        position: relative;
     }
 
     ul li.current a::before {
@@ -309,16 +302,21 @@ ul li.current a::before {
         border-bottom: 10px solid orangered;
     }
 
-   
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
 
     button {
         background-color: orangered;
-        padding: 0.7em 1em;
+        padding: 0.8em;
         border: none;
         color: aliceblue;
+        margin-right: 40px;
         border-radius: 5px;
         cursor: pointer;
-        font-size: small;
+        font-size: medium;
     }
 
     .img-fondo {
@@ -331,6 +329,8 @@ ul li.current a::before {
     display: none;
   }
       
-}
-    
+
+    }
+
 </style>
+
