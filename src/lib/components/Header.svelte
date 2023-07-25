@@ -47,12 +47,13 @@
                 aria-current={$page.url.pathname === '/calendari' ? 'page' : undefined}>
                 <a href="/calendari">Calendari</a>
             </li>
+            <button type="button" on:click={handleButtonClick}>
+                Inscripció i quotes
+            </button>
         </ul>
         <button class="mobile-menu-button" on:click={toggleMobileMenu}>☰</button>
     </nav>
-    <button type="button" on:click={handleButtonClick}>
-        Inscripció i quotes
-    </button>
+   
 </header>
     
     {#if isMobileMenuOpen}
@@ -115,7 +116,8 @@
     ul {
         display: flex;
         list-style: none;
-        gap: 20px;
+        gap: 60px;
+        margin-right: 100px;
     }
 
     ul li a {
@@ -137,18 +139,12 @@
         border-bottom: 10px solid orangered;
     }
 
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
+   
     button {
         background-color: orangered;
-        padding: 0.8em;
+        padding: 0.7em 1em;
         border: none;
         color: aliceblue;
-        margin-right: 40px;
         border-radius: 5px;
         cursor: pointer;
         font-size: medium;
@@ -174,7 +170,7 @@
         justify-content: space-between;
         align-items: center;
         list-style: none;
-        gap: 40px;
+       
     }
 
     ul li a {
@@ -236,9 +232,7 @@
     button {
             display: none;
         }   
-    ul {
-      display: none; 
-    }
+   
     nav.mobile-menu {
       display: flex;
       flex-direction: column;
@@ -277,12 +271,7 @@
        
     }
 
-    ul {
-        display: flex;
-        list-style: none;
-        gap: 20px;
-    }
-
+   
     ul li a {
         text-decoration: none;
         color: aliceblue;
@@ -302,21 +291,17 @@
         border-bottom: 10px solid orangered;
     }
 
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
+  
 
     button {
         background-color: orangered;
-        padding: 0.8em;
+        padding: 0.8em 1em;
         border: none;
         color: aliceblue;
-        margin-right: 40px;
         border-radius: 5px;
         cursor: pointer;
-        font-size: medium;
+        font-size: small;
+       
     }
 
     .img-fondo {
