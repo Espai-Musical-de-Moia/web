@@ -151,6 +151,10 @@
                 text-align: initial;
             }
 
+            button {
+                font-family: inherit;
+            }
+
             input {
                 height: 30px;
                 width: 30%;
