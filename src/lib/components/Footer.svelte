@@ -41,7 +41,7 @@
         <div class="avis">
             <p>Avís Legal</p>
             <p>Política de Cookies</p>
-            <p>Política de Privacitad</p>
+            <p>Política de Privacitat</p>
         </div>
 
         <div class="documentacio">
@@ -68,6 +68,7 @@
     section {
         display: flex;
         justify-content: space-around;
+        padding: 50px 30px;
     }
 
     a:link {
@@ -98,6 +99,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        padding: 50px 30px;
     }
 
     .footer-logo {
