@@ -46,12 +46,12 @@
                 <a href="/horari">Horari</a>
             </li>
             <li
-                    class:current={$page.url.pathname === "/contratacions"}
-                    aria-current={$page.url.pathname === "/contratacions"
+                    class:current={$page.url.pathname === "/contractacions"}
+                    aria-current={$page.url.pathname === "/contractacions"
                     ? "page"
                     : undefined}
             >
-                <a href="/contratacions">Contratacions</a>
+                <a href="/contractacions">Contractacions</a>
             </li>
             <li
                     class:current={$page.url.pathname === "/calendari"}
@@ -94,12 +94,12 @@
                     <a href="/horaris">Horari</a>
                 </li>
                 <li
-                        class:current={$page.url.pathname === "/contratacions"}
-                        aria-current={$page.url.pathname === "/contratacions"
+                        class:current={$page.url.pathname === "/contractacions"}
+                        aria-current={$page.url.pathname === "/contractacions"
                     ? "page"
                     : undefined}
                 >
-                    <a href="/contratacions">Contratacions</a>
+                    <a href="/contractacions">Contractacions</a>
                 </li>
                 <li
                         class:current={$page.url.pathname === "/calendari"}
@@ -320,7 +320,6 @@
         .mobile-menu-button {
             display: none;
         }
-
     }
 </style>
 
