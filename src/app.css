@@ -6,27 +6,3 @@ body {
     box-sizing: border-box;
     font-family:'Lora', serif;
 }
-
-@media screen and (max-width: 575px) {
-    body {
-        margin: 0;
-        font-family:'Lora', serif;
-    }
-
-}
-@media screen and (min-width: 768px) and (max-width: 991px){
-    body {
-        margin: 0;
-        font-family:'Lora', serif;
-    }
-
-    @media screen and (min-width: 1024px) {
-        body {
-            margin: 0;
-            font-family:'Lora', serif;
-        }
-
-    }
-
-
-}

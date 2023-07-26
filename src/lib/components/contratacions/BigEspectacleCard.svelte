@@ -59,10 +59,6 @@
             background-color: white;
             border:1px solid ;
             height: 280px;
-
-
-
-
         }
 
         div {

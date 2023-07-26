@@ -152,6 +152,12 @@
         align-items: center;
     }
 
+    @media (max-width: 732px) {
+        ul {
+            display: none;
+        }
+    }
+
     ul li a {
         text-decoration: none;
         color: aliceblue;

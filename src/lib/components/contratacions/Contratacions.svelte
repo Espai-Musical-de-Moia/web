@@ -25,6 +25,13 @@
         transition: linear 1s;
     }
 
+    @media (max-width: 732px) {
+        article {
+            width: 100%;
+        }
+
+    }
+
     article:hover {
         background-color: #b9b9b9;
     }
