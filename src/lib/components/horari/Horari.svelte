@@ -4,17 +4,10 @@
 </script>
 
 
-<div class="image-container">
+<div class="table-container">
     <img src={seguim_treballant} alt="foto">
-</div>
-
-<div class="container">
     <table>
-        <thead>
 
-
-
-    <thead>
 
         <tr>
             <th>Hora</th>
@@ -38,24 +31,24 @@
 </div>
 
 <style>
-    .container {
-        width: 100%;
-        overflow-x: auto;
-        margin-bottom: 20px;
+    .table-container {
+
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     table {
         background-color: white;
-        width: 100%;
         border-collapse: collapse;
         text-align: center;
     }
 
     th,
     td {
-        padding: 10px 20px;
-        border: 1px solid #fefefe;
+        padding: 26px 50px;
+        border: 16px solid #fefefe;
     }
 
     .light-gray {
@@ -66,10 +59,6 @@
         background-color: #dddddd;
     }
 
-
-    .image-container {
-        width: 100%;
-    }
 
     div {
         width: 100vw;
@@ -84,74 +73,72 @@
     }
 
     img {
-
-        width: 100%;
-        max-width: 400px;
-        border-radius: 2%;
+        position: absolute;
+        width: 40%;
     }
 
-    @media only screen and (max-width: 732px) {
-        table {
-            font-size: 14px;
+    /* @media only screen and (max-width: 732px) {
+         table {
+             font-size: 14px;
 
-            width: 50%;
-            height: 30vw;
-            margin-top: 10%;
-            border-radius: 2%;
-        }
+             width: 50%;
+             height: 30vw;
+             margin-top: 10%;
+             border-radius: 2%;
+         }
 
-        @media screen and (max-width: 575px) {
-            div {
-                width: 100vw;
-                height: 50vw;
-                display: flex;
-                justify-content: center;
-                position: relative;
-                z-index: 1;
-            }
+         @media screen and (max-width: 575px) {
+             div {
+                 width: 100vw;
+                 height: 50vw;
+                 display: flex;
+                 justify-content: center;
+                 position: relative;
+                 z-index: 1;
+             }
 
-            img {
-                width: 50%;
-                height: 30vw;
-                margin-top: 10%;
-                border-radius: 2%;
-            }
-        }
-        @media screen and (min-width: 768px) and (max-width: 991px) {
-            div {
-                width: 100vw;
-                height: 50vw;
-                display: flex;
-                justify-content: center;
-                position: relative;
-                z-index: 1;
-            }
+             img {
+                 width: 50%;
+                 height: 30vw;
+                 margin-top: 10%;
+                 border-radius: 2%;
+             }
+         }
+         @media screen and (min-width: 768px) and (max-width: 991px) {
+             div {
+                 width: 100vw;
+                 height: 50vw;
+                 display: flex;
+                 justify-content: center;
+                 position: relative;
+                 z-index: 1;
+             }
 
-            img {
-                width: 50%;
-                height: 30vw;
-                margin-top: 10%;
-                border-radius: 2%;
-            }
-        }
+             img {
+                 width: 50%;
+                 height: 30vw;
+                 margin-top: 10%;
+                 border-radius: 2%;
+             }
+         }
 
-        @media screen and (min-width: 1024px) {
-            div {
-                width: 100vw;
-                height: 50vw;
-                display: flex;
-                justify-content: center;
-                position: relative;
-                z-index: 1;
-            }
+         @media screen and (min-width: 1024px) {
+             div {
+                 width: 100vw;
+                 height: 50vw;
+                 display: flex;
+                 justify-content: center;
+                 position: relative;
+                 z-index: 1;
+             }
 
-            img {
-                width: 50%;
-                height: 30vw;
-                margin-top: 10%;
-                border-radius: 2%;
-            }
-        }
-    }
+             img {
+                 width: 50%;
+                 height: 30vw;
+                 margin-top: 10%;
+                 border-radius: 2%;
+             }
+         }
+     }*/
 
 </style>
