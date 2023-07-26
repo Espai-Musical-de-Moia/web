@@ -182,6 +182,14 @@
     textarea {
         width: 915px;
         height: 146px;
+        padding: 5px;
+        font-size: 1em;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        vertical-align: top;
+        transition: box-shadow 0.3s ease;
     }
 
     .submit-button {

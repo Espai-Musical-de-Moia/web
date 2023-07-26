@@ -175,6 +175,15 @@
         border-radius: 5px;
         cursor: pointer;
         font-size: small;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 129px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.2em;
+        transition: background-color 0.3s ease;
+        font-family: inherit;
     }
 
     .img-fondo {
