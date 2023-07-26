@@ -149,6 +149,7 @@
         list-style: none;
         gap: 60px;
         margin-right: 100px;
+        align-items: center;
     }
 
     ul li a {
