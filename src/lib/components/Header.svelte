@@ -1,6 +1,6 @@
 <script>
-    import { goto } from "$app/navigation";
-    import { page } from "$app/stores";
+    import {goto} from "$app/navigation";
+    import {page} from "$app/stores";
     import logo from "$lib/img/header/logo.png";
     import fondo from "$lib/img/header/fondo.png";
 
@@ -10,9 +10,6 @@
         isMobileMenuOpen = !isMobileMenuOpen;
     }
 
-    function closeMobileMenu() {
-        isMobileMenuOpen = false;
-    }
     function handleButtonClick() {
         goto("/inscripcio");
     }
@@ -20,45 +17,45 @@
 
 <header>
     <div class="logo">
-        <img class="header-logo" src={logo} alt="header-logo" />
+        <img class="header-logo" src={logo} alt="header-logo"/>
     </div>
-   
+
     <nav class="main-navbar">
         <button class="mobile-menu-button" on:click={toggleMobileMenu}>☰</button>
         <ul class="main-ul">
             <li
-                class:current={$page.url.pathname === "/"}
-                aria-current={$page.url.pathname === "/" ? "page" : undefined}
+                    class:current={$page.url.pathname === "/"}
+                    aria-current={$page.url.pathname === "/" ? "page" : undefined}
             >
                 <a href="/">Inici</a>
             </li>
             <li
-                class:current={$page.url.pathname === "/projecte"}
-                aria-current={$page.url.pathname === "/projecte"
+                    class:current={$page.url.pathname === "/projecte"}
+                    aria-current={$page.url.pathname === "/projecte"
                     ? "page"
                     : undefined}
             >
                 <a href="/projecte">Projecte</a>
             </li>
             <li
-                class:current={$page.url.pathname === "/horari"}
-                aria-current={$page.url.pathname === "/horari"
+                    class:current={$page.url.pathname === "/horari"}
+                    aria-current={$page.url.pathname === "/horari"
                     ? "page"
                     : undefined}
             >
                 <a href="/horari">Horari</a>
             </li>
             <li
-                class:current={$page.url.pathname === "/contratacions"}
-                aria-current={$page.url.pathname === "/contratacions"
+                    class:current={$page.url.pathname === "/contratacions"}
+                    aria-current={$page.url.pathname === "/contratacions"
                     ? "page"
                     : undefined}
             >
                 <a href="/contratacions">Contratacions</a>
             </li>
             <li
-                class:current={$page.url.pathname === "/calendari"}
-                aria-current={$page.url.pathname === "/calendari"
+                    class:current={$page.url.pathname === "/calendari"}
+                    aria-current={$page.url.pathname === "/calendari"
                     ? "page"
                     : undefined}
             >
@@ -67,63 +64,62 @@
             <button class="main-button" type="button" on:click={handleButtonClick}>
                 Inscripció i quotes
             </button>
-        </ul>          
-    </nav>
-   
-
-
-{#if isMobileMenuOpen}
-    <nav class="mobile-menu">
-        <ul class="mobile-ul">
-            <li
-                class:current={$page.url.pathname === "/"}
-                aria-current={$page.url.pathname === "/" ? "page" : undefined}
-            >
-                <a href="/">Inici</a>
-            </li>
-            <li
-                class:current={$page.url.pathname === "/projecte"}
-                aria-current={$page.url.pathname === "/projecte"
-                    ? "page"
-                    : undefined}
-            >
-                <a href="/projecte">Projecte</a>
-            </li>
-            <li
-                class:current={$page.url.pathname === "/horaris"}
-                aria-current={$page.url.pathname === "/horaris"
-                    ? "page"
-                    : undefined}
-            >
-                <a href="/horaris">Horari</a>
-            </li>
-            <li
-                class:current={$page.url.pathname === "/contratacions"}
-                aria-current={$page.url.pathname === "/contratacions"
-                    ? "page"
-                    : undefined}
-            >
-                <a href="/contratacions">Contratacions</a>
-            </li>
-            <li
-                class:current={$page.url.pathname === "/calendari"}
-                aria-current={$page.url.pathname === "/calendari"
-                    ? "page"
-                    : undefined}
-            >
-                <a href="/calendari">Calendari</a>
-            </li>
-            <button type="button" on:click={handleButtonClick}>
-                Inscripció i quotes
-            </button>
         </ul>
-           </nav>
-          
-{/if}
+    </nav>
+
+
+    {#if isMobileMenuOpen}
+        <nav class="mobile-menu">
+            <ul class="mobile-ul">
+                <li
+                        class:current={$page.url.pathname === "/"}
+                        aria-current={$page.url.pathname === "/" ? "page" : undefined}
+                >
+                    <a href="/">Inici</a>
+                </li>
+                <li
+                        class:current={$page.url.pathname === "/projecte"}
+                        aria-current={$page.url.pathname === "/projecte"
+                    ? "page"
+                    : undefined}
+                >
+                    <a href="/projecte">Projecte</a>
+                </li>
+                <li
+                        class:current={$page.url.pathname === "/horaris"}
+                        aria-current={$page.url.pathname === "/horaris"
+                    ? "page"
+                    : undefined}
+                >
+                    <a href="/horaris">Horari</a>
+                </li>
+                <li
+                        class:current={$page.url.pathname === "/contratacions"}
+                        aria-current={$page.url.pathname === "/contratacions"
+                    ? "page"
+                    : undefined}
+                >
+                    <a href="/contratacions">Contratacions</a>
+                </li>
+                <li
+                        class:current={$page.url.pathname === "/calendari"}
+                        aria-current={$page.url.pathname === "/calendari"
+                    ? "page"
+                    : undefined}
+                >
+                    <a href="/calendari">Calendari</a>
+                </li>
+                <button type="button" on:click={handleButtonClick}>
+                    Inscripció i quotes
+                </button>
+            </ul>
+        </nav>
+
+    {/if}
 </header>
 
 <div class="img-fondo">
-    <img class="img-fondo" src={fondo} alt="img-fondo" />
+    <img class="img-fondo" src={fondo} alt="img-fondo"/>
 </div>
 
 <style>
@@ -134,14 +130,15 @@
         height: 20%;
         justify-content: space-between;
         align-items: center;
-       
     }
+
     .logo {
         margin: 2%;
     }
+
     .header-logo {
         height: 100%;
-        max-width: 10%;
+        max-width: 15%;
     }
 
     ul {
@@ -150,12 +147,6 @@
         gap: 60px;
         margin-right: 100px;
         align-items: center;
-    }
-
-    @media (max-width: 732px) {
-        ul {
-            display: none;
-        }
     }
 
     ul li a {
@@ -191,11 +182,16 @@
         margin: 0;
         object-fit: cover;
     }
+
     .mobile-menu-button {
         display: none;
     }
 
-    
+    @media (max-width: 732px) {
+        ul {
+            display: none;
+        }
+    }
 
     @media screen and (max-width: 575px) {
 
@@ -206,10 +202,8 @@
             height: 20%;
             justify-content: space-between;
             align-items: center;
-           
-           
         }
-          
+
         .main-ul li {
             display: none;
         }
@@ -217,16 +211,7 @@
         .main-button {
             display: none;
         }
-        header {
-        width: 100%;
-        display: flex;
-        background-color: black;
-        height: 5%;
-        justify-content: space-between;
-        align-items: center;
-       
-    }
-    
+
         ul {
             display: flex;
             flex-direction: column;
@@ -236,47 +221,42 @@
             gap: 20px;
             background-color: rgb(43, 52, 52);
         }
-   
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        ul li.current a::before {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-bottom: 10px solid orangered;
+        }
+
+        button {
+            background-color: orangered;
+            padding: 0.4em 1.5em;
+            border: none;
+            color: aliceblue;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 8px;
+        }
+
+        .mobile-menu-button {
+            display: inline;
+            padding: 1em 2em;
+        }
     }
 
-    ul li.current a::before {
-        content: "";
-        position: absolute;
-        bottom: -10px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 0;
-        height: 0;
-        border-left: 6px solid transparent;
-        border-right: 6px solid transparent;
-        border-bottom: 10px solid orangered;
-    }
-
-    button {
-        background-color: orangered;
-        padding: 0.4em 1.5em;
-        border: none;
-        color: aliceblue;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 8px;
-    }
-
-    .mobile-menu-button {
-        display: inline;
-        padding: 1em 2em;
-        
-       
-     
-    }
-
-   
-    }
     @media screen and (min-width: 576px) and (max-width: 768px) {
         ul li a {
             display: flex;
@@ -284,7 +264,6 @@
             justify-content: space-between;
             align-items: center;
             background-color: transparent;
-           
         }
     }
 
@@ -296,9 +275,8 @@
             height: 20%;
             justify-content: space-between;
             align-items: center;
-           
         }
-        
+
         .header-logo {
             height: 100%;
             max-width: 10%;
@@ -338,10 +316,11 @@
             margin: 0;
             object-fit: cover;
         }
+
         .mobile-menu-button {
             display: none;
         }
-        
+
     }
 </style>
 

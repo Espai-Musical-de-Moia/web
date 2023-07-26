@@ -5,7 +5,6 @@
     import org3 from "$lib/img/contratacions/org3.png";
     import orq4 from "$lib/img/contratacions/orq4.png";
     import BigEspectacleCard from "$lib/components/contratacions/BigEspectacleCard.svelte";
-
 </script>
 
 <div class="container">
@@ -37,10 +36,5 @@
         flex-wrap: wrap;
         width: 90%;
         margin: 50px auto;
-
     }
-
-
-
 </style>
-

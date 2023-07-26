@@ -109,8 +109,9 @@
     img {
         max-width: 18%;
     }
+
     p {
-        font-size: 12px;
+        font-size: 14px;
         color: #ffffff;
     }
 

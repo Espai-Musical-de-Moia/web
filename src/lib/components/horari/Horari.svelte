@@ -3,19 +3,15 @@
     import seguim_treballant from "$lib/img/horaris/seguim_treballant.png";
 </script>
 
-
 <div class="table-container">
     <img src={seguim_treballant} alt="foto">
     <table>
-
-
         <tr>
             <th>Hora</th>
             {#each Object.keys(horari) as dia}
                 <th>{dia}</th>
             {/each}
         </tr>
-
 
         <tbody>
         {#each Object.keys(horari["Dilluns"]) as hora, index}
@@ -32,7 +28,6 @@
 
 <style>
     .table-container {
-
         position: relative;
         display: flex;
         justify-content: center;
@@ -59,7 +54,6 @@
         background-color: #dddddd;
     }
 
-
     div {
         width: 100vw;
         height: 50vw;
@@ -76,69 +70,4 @@
         position: absolute;
         width: 40%;
     }
-
-    /* @media only screen and (max-width: 732px) {
-         table {
-             font-size: 14px;
-
-             width: 50%;
-             height: 30vw;
-             margin-top: 10%;
-             border-radius: 2%;
-         }
-
-         @media screen and (max-width: 575px) {
-             div {
-                 width: 100vw;
-                 height: 50vw;
-                 display: flex;
-                 justify-content: center;
-                 position: relative;
-                 z-index: 1;
-             }
-
-             img {
-                 width: 50%;
-                 height: 30vw;
-                 margin-top: 10%;
-                 border-radius: 2%;
-             }
-         }
-         @media screen and (min-width: 768px) and (max-width: 991px) {
-             div {
-                 width: 100vw;
-                 height: 50vw;
-                 display: flex;
-                 justify-content: center;
-                 position: relative;
-                 z-index: 1;
-             }
-
-             img {
-                 width: 50%;
-                 height: 30vw;
-                 margin-top: 10%;
-                 border-radius: 2%;
-             }
-         }
-
-         @media screen and (min-width: 1024px) {
-             div {
-                 width: 100vw;
-                 height: 50vw;
-                 display: flex;
-                 justify-content: center;
-                 position: relative;
-                 z-index: 1;
-             }
-
-             img {
-                 width: 50%;
-                 height: 30vw;
-                 margin-top: 10%;
-                 border-radius: 2%;
-             }
-         }
-     }*/
-
 </style>

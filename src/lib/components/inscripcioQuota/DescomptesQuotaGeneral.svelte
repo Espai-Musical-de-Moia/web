@@ -27,3 +27,10 @@
         </option>
     {/each}
 </select>
+
+<style>
+    select {
+        font-family: inherit;
+        font-size: medium;
+    }
+</style>

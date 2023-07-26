@@ -4,21 +4,17 @@
     import DescomptesQuotaGeneral from "$lib/components/inscripcioQuota/DescomptesQuotaGeneral.svelte";
     import QuotaMensual from "$lib/components/inscripcioQuota/QuotaMensual.svelte";
 
-    //Calendario
     import flatpickr from 'flatpickr';
     import 'flatpickr/dist/flatpickr.min.css';
     import { onMount } from 'svelte';
 
-
     let campo2 = '';
 
-    // Configura las opciones del calendario
     const calendarOptions = {
         dateFormat: 'd/m/Y',
         locale: 'ca',
     };
 
-    // Inicializa el calendario cuando el componente esté montado
     onMount(() => {
         flatpickr('.datepicker', calendarOptions);
     });
@@ -56,7 +52,6 @@
 
                 alert("Inscripcio Feta");
             }
-
 </script>
 
 <div class="container">
@@ -112,115 +107,115 @@
             <p>Tens idees, aportacions, dubtes, ... digues la teva!</p>
             <textarea bind:value={comment} required></textarea>
 
-            <button class="submit-button" on:click={crearInscripcio} disabled={!comment}>Enviar formulari</button>
+            <button class="submit-button" on:click={crearInscripcio}>Enviar formulari</button>
         </div>
-    </div>
+</div>
 
-        <style>
-            .container {
-                background-color: #f2f2f2;
-                width: 90%;
-                margin: 65px auto;
-                padding: 20px;
-                border-radius: 15px;
-            }
+<style>
+    .container {
+        background-color: #f2f2f2;
+        width: 90%;
+        margin: 65px auto;
+        padding: 20px;
+        border-radius: 15px;
+    }
 
-            form {
-                margin: 5% auto;
-            }
+    form {
+        margin: 5% auto;
+    }
 
-            h2 {
-                text-align: center;
-                margin-bottom: 5%;
-            }
+    h2 {
+        text-align: center;
+        margin-bottom: 5%;
+    }
 
-            h3 {
-                text-align: center;
-                background-color: #ff704d;
-            }
+    h3 {
+        text-align: center;
+        background-color: #ff704d;
+    }
 
-            .form-group {
-                margin-bottom: 20px;
-                text-align: center;
-            }
+    .form-group {
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
-            label {
-                font-size: 1.3em;
-                width: 30%;
-                display: inline-block;
-                text-align: initial;
-            }
+    label {
+        font-size: 1.3em;
+        width: 30%;
+        display: inline-block;
+        text-align: initial;
+    }
 
-            button {
-                font-family: inherit;
-            }
+    button {
+        font-family: inherit;
+    }
 
-            input {
-                height: 30px;
-                width: 30%;
-                padding: 5px;
-                font-size: 1em;
-                border-radius: 5px;
-                border: none;
-                background-color: #f5f5f5;
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                display: inline-block;
-                vertical-align: top;
-                transition: box-shadow 0.3s ease;
-            }
+    input {
+        height: 30px;
+        width: 30%;
+        padding: 5px;
+        font-size: 1em;
+        border-radius: 5px;
+        border: none;
+        background-color: #f5f5f5;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        vertical-align: top;
+        transition: box-shadow 0.3s ease;
+    }
 
-            input:focus {
-                outline: none;
-                box-shadow: 0 0 0 3px #ff6b6b;
-            }
+    input:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px #ff6b6b;
+    }
 
-            button:hover {
-                background-color: #ff704d;
-            }
+    button:hover {
+        background-color: #ff704d;
+    }
 
-            .formulari-quota {
-                margin: auto 10%;
-                font-size: large;
-                text-align: justify;
-            }
+    .formulari-quota {
+        margin: auto 10%;
+        font-size: large;
+        text-align: justify;
+    }
 
-            textarea {
-                width: 915px;
-                height: 146px;
-            }
+    textarea {
+        width: 915px;
+        height: 146px;
+    }
 
-            .submit-button {
-                background-color: orangered;
-                padding: 10px;
-                border: none;
-                color: aliceblue;
-                margin-top: 20px;
-                margin-bottom: 20px;
-                width: 300px;
-                border-radius: 5px;
-                cursor: pointer;
-                font-size: 1.2em;
-                transition: background-color 0.3s ease;
-            }
+    .submit-button {
+        background-color: orangered;
+        padding: 10px;
+        border: none;
+        color: aliceblue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.2em;
+        transition: background-color 0.3s ease;
+    }
 
-            @media only screen and (max-width: 600px) {
-                textarea {
-                    width: 376px;
-                }
+    @media only screen and (max-width: 600px) {
+        textarea {
+            width: 376px;
+        }
 
-                input {
-                    width: 63%;
-                    padding: 8px;
-                }
+        input {
+            width: 63%;
+            padding: 8px;
+        }
 
-                form {
-                    width: 100%;
-                    margin: 12% auto;
-                    inline-size: fit-content;
-                }
+        form {
+            width: 100%;
+            margin: 12% auto;
+            inline-size: fit-content;
+        }
 
-                .formulari-quota {
-                    margin: auto;
-                }
-            }
-        </style>
+        .formulari-quota {
+            margin: auto;
+        }
+    }
+</style>

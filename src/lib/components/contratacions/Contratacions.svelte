@@ -2,8 +2,8 @@
     export let titulo
     export let texto
     export let imagen
-
 </script>
+
 <article>
     <h1>{titulo}</h1>
     <p> {texto}</p>
@@ -11,7 +11,6 @@
 </article>
 
 <style>
-
     article {
         display: flex;
         width: 47%;
@@ -29,7 +28,6 @@
         article {
             width: 100%;
         }
-
     }
 
     article:hover {
@@ -45,7 +43,6 @@
     img {
         width: 100%;
         overflow: hidden;
-
     }
 
     h1 {

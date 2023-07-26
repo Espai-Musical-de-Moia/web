@@ -12,7 +12,6 @@
             estudiar la música de manera semiprofessional o professional, oferint al mateix temps a les
             audiències de la comarca i de més enllà concerts i espectacles de qualitat, a més de seguir
             potenciant col·laboracions amb altres artistes del Moianès.</p>
-
     </div>
 
     <img src={main} alt="fotoMain">
@@ -50,6 +49,7 @@
         color: black;
         font-size:20px;
     }
+
     @media only screen and (max-width: 732px) {
         article {
             width: 80%;
